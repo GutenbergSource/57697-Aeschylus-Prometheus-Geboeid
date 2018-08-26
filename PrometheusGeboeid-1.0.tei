@@ -1,0 +1,2755 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
+
+<!ENTITY florin CDATA "&#x0192;" -- Florin currency symbol (Netherlands) -->
+
+]>
+<TEI.2 lang=nl-1900>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Aischylos&apos; Prometheus Geboeid</title>
+<author key="Aeschylus" ref="https://viaf.org/viaf/268526195/">Aeschylus (ca. 525&ndash;456 v.Chr.)</author>
+<respStmt><resp lang=en>Translation</resp> <name key="Boutens, Pieter Cornelis" ref="https://viaf.org/viaf/12275722/">Pieter Cornelis Boutens (1870&ndash;1943)</name></respStmt>
+<respStmt><resp lang=en>Illustrator</resp> <name key="Praag, Philip van" ref="https://viaf.org/viaf/285152638/">Philip van Praag (1887&ndash;1942)</name></respStmt>
+<respStmt><resp lang=en>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>Project Gutenberg</publisher>
+<pubPlace>Urbana, Illinois, USA.</pubPlace>
+<idno type=OLN>#####</idno>
+<idno type=OLW>#####</idno>
+<idno type=OCLC>#####</idno>
+<idno type=LibThing>#####</idno>
+<idno type=PGclearance>20180310083650aeschylus</idno>
+<idno type=PGDPProjectId>projectID5aa41b518a662</idno>
+<idno type=PGSrc>57697-Aeschylus-Prometheus-Geboeid</idno>
+<idno type=epub-id>urn:uuid:80df6b7f-1df6-416a-8294-18d11629743b</idno>
+<idno type=PGnum>57697</idno>
+<date>2018-08-14</date>
+<availability lang=nl>
+<p>&availability.nl;
+
+<p>Dit eBoek is geproduceerd door het on-line gedistribueerd correctieteam op <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
+
+</availability>
+</publicationStmt>
+<notesStmt>
+    <note type="Description">#####<!--Een korte beschrijving van dit document.--></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<author>Aischylos</author>
+<title>Aischylos&apos; Prometheus Geboeid</title>
+<date>[1912]</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc lang=nl>
+<p>Dit boek is weergegeven in oorspronkelijke schrijfwijze. Afgebroken woorden aan het einde van de regel zijn stilzwijgend hersteld. Kennelijke zetfouten in het origineel zijn verbeterd. Deze verbeteringen zijn aangegeven in de colofon aan het einde van dit boek.
+
+</encodingDesc>
+<profileDesc>
+    <langUsage lang=nl>
+        <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
+        <language id=nl>Nederlands</language>
+        <language id=en>Engels</language>
+        <language id=grc>Grieks (klassiek)</language>
+        <language id=grc-Latn>Grieks (klassiek; Latijnse transcriptie)</language>
+    </langUsage>
+    <textClass lang=en>
+        <keywords>
+            <list>
+                <item>Tragedies</item>
+                <item>Prometheus (Greek deity) -- Drama</item>
+            </list>
+        </keywords>
+    </textClass>
+</profileDesc>
+<revisionDesc>
+    <list>
+        <item>2017-08-12 Begonnen.
+    </list>
+</revisionDesc>
+</teiHeader>
+<text rend="stylesheet(style/classic.css)">
+<front id=frontmatter>
+<div1 id=cover type=Cover>
+
+
+<p><figure id=cover-image rend="image(images/cover.jpg)">
+<figDesc>Oorspronkelijke voorkant.</figDesc>
+</figure>
+
+
+
+<pb>
+<div1 id=french type=FrenchTitle>
+
+
+<p rend="align(center) font-size(large)">PROMETHEUS GEBOEID
+
+
+<pb>
+<div1 id=seriestitle type=TitlePage>
+
+
+<p><figure id=seriestitle-image rend="image(images/seriestitle.jpg)">
+<figDesc>Oorspronkelijke titelpagina.</figDesc>
+</figure>
+
+
+<titlePage>
+<docTitle><titlePart type=series>WERELD BIBLIOTHEEK</titlePart></docTitle>
+
+<byline><hi rend=sc>Onder leiding van L. Simons</hi></byline>
+
+<!-- Illustration -->
+
+<!-- Illustration -->
+
+<docImprint>UITGEGEVEN DOOR:
+
+<lb>DE MAATSCHAPPIJ VOOR GOEDE EN
+<lb>GOEDKOOPE LECTUUR&mdash;AMSTERDAM
+</docImprint>
+</titlePage>
+
+
+<pb>
+<div1 id=titlepage type=TitlePage>
+
+
+<p><figure id=titlepage-image rend="image(images/titlepage.jpg)">
+<figDesc>Oorspronkelijke titelpagina.</figDesc>
+</figure>
+
+
+
+
+<titlePage>
+<docTitle><titlePart>AISCHYLOS&apos;
+
+<lb>PROMETHEUS GEBOEID</titlePart></docTitle>
+
+<byline>UIT HET GRIEKSCH
+<lb>DOOR <docAuthor>P. C. BOUTENS</docAuthor>
+
+<lb>MET VOORWOORD EN ENKELE AANTEEKENINGEN
+</byline>
+
+<!-- Illustration -->
+
+<docImprint>HET RECHT VAN VERTOONEN VOORBEHOUDEN
+<lb>VOLGENS DE WET OP HET AUTEURSRECHT</docImprint>
+</titlePage>
+
+
+
+<pb n=V>
+<div1 id=voorwoord type=Preface>
+<head>VOORWOORD</head>
+
+
+<p>Zooals bekend is volgden de Atheensche treurspeldichters steeds de gewoonte, niet éen, maar drie drama&apos;s tegelijk voor het publiek te brengen. Tusschen de <hi>trilogie</hi> bij Aischylos echter en bij zijn opvolgers bestaat een wezenlijk verschil. Aischylos voelde de zoogenaamde eenheid van tijd op het tooneel niet als noodzakelijk. Daardoor wordt het hem mogelijk om in den beperkten duur van éen drama een reeks gebeurtenissen samen te dringen, wier opeenvolging in het reëele leven slechts met ruime tusschenpoozen denkbaar is. Zijn trilogieën omvatten om dezelfde reden steeds een grootsche jaren-overspannende handeling, en de afzonderlijke deelen zijn als bedrijven van dat geheel te beschouwen. De latere dramaturgen, die, om aan den eisch van eenheid van tijd te voldoen, enkel handelingen ten tooneele brachten, welke met den reëelen tijdsduur samenvielen, gaven den onderlingen samenhang van de deelen der trilogie prijs en meteen Aischylos&apos; tijdelooze weidschheid.
+
+<p>Een drama als &ldquo;Prometheus&rdquo; behoort dus in de eerste plaats beschouwd te worden als onderdeel van de trilogie waar het toe behoort, en het is daarom vooral te bejammeren dat de beide andere stukken op eenige weinige fragmenten en aanwijzingen na verloren zijn gegaan.
+
+<pb n=VI><p>Het komt mij voor dat in de trilogie waarvan &ldquo;Prometheus geboeid&rdquo; het eerste bedrijf vormt, geteekend wordt de <hi>geleidelijke</hi> vestiging van Zeus&apos; wereldbestuur.&mdash;Van het tweede stuk, &ldquo;Prometheus bevrijd&rdquo;, zijn fragmenten over, die ons omtrent den uitwendigen gang der handeling voldoende kunnen inlichten. De hoofdfiguur die aan het einde van het eerste drama door Zeus met rots en al in den Tartaros was geslingerd, stijgt weêr in het daglicht op aan een uithoek van den Kaukasos. Bij zijn oude kwalen is nu nog een nieuwe foltering gevoegd: de adelaar van Zeus komt hem om den anderen dag een stuk uit den lever scheuren. Maar het verzet van den Titan blijft ongebroken. Zelfs de vermaningen zijner stamgenooten, de andere Titanen, die door Zeus uit den Tartaros zijn losgelaten en die hier optreden als rei, kunnen hem niet tot onvoorwaardelijke onderwerping bewegen. Eerst nadat de god plechtig beloofd heeft hem uit zijn boeien te zullen bevrijden, openbaart Prometheus zijn voor Zeus zoo gewichtig geheim. Met de komst van Herakles en de verlossing sluit het tweede drama.&mdash;Van het slotdrama der trilogie weten wij weinig af. Naar alle waarschijnlijkheid was de naam &ldquo;Prometheus vuurdrager&rdquo;, en werd de inhoud gevormd door de naderbevestigde verzoening van oppergod en titan, een verzoening waaraan het menschelijk geslacht, de beschermelingen van Prometheus, een groot en natuurlijk aandeel neemt. Niet verwerpelijk lijkt het vermoeden dat, evenals de Oresteia eindigt met de bevrediging der Erinyen tot Eumenieden, de instelling van het Prometheus-feest, de Prometheia, blijvend aandenken aan den herstelden wereldvrede, ten slotte den zwaar beproefden Prometheus als middelaar tusschen God en menschen in verdiende eere herstellen moest.
+
+<pb n=VII><p>Vroegere uitgevers van Aischylos, die ons drama als een op zich-zelf staand stuk beschouwden, lieten zich vaak verleiden in den strijd van Prometheus tegen den nieuwen oppergod niet meer te zien dan de tegenstelling van den willekeurigen hartstochtelijken tyran met den grooten waarachtigen volksvriend, een transpositie dus van menschelijke toestanden op goddelijk terrein. Anderen weêr vonden in Prometheus de menschheid verbeeld in haar kamp tegen onverbiddelijke natuurmachten en vroegen tragische bewondering voor de grootschheid der onvermijdelijke nederlaag, of ook wel verwijdden zij de handeling tot een verheerlijking van het alles en allen beheerschende noodlot. De nieuweren daarentegen leggen misschien te veel gewicht op den uitsluitenden zegepraal van Zeus. Zij beroepen zich op Aischylos&apos; diep gevoel van vroomheid, waarvoor zij uit andere drama&apos;s kenmerkende uitspraken aanhalen. Aischylos zoû van zulk een eerbied voor den oppergod doordrongen zijn geweest, dat bij hem een kritische houding tegenover Zeus gelijk zoû moeten geacht worden aan godslastering. Maar de vroomheid van een Griek is een andere dan de christelijke. Zijn goden zijn in hoogste instantie geen onaanrandbare persoonlijkheden. Zij blijven de dragers en vertegenwoordigers eener evenwichtige wereldorde. En als zoodanig is Zeus niet geboren; ook hij is door leering geworden de alwijze en milde god die hij is. Hoe Aischylos bidt, kan men lezen in de &ldquo;Agamemnoon&rdquo;:
+
+<lg type=Group>
+    <l>Zeus!&mdash;<hi>wie hij ook wezen moog&apos;</hi>,
+    <l>Zoo die naam bij hem bemind zij,
+    <l>Roep ik zóó hem aan, enz.
+</lg>
+
+<p>En eenige regels verder:
+
+<pb n=VIII><lg>
+    <l>Zeus die paden tot verstand
+    <l>Stervelingen leidt,
+    <l>Die &ldquo;door lijden leering&rdquo;
+    <l>Wettig wijdt:
+    <l>In den slaap nog weegt op &apos;t hart
+    <l>Angst van wroegings eeuwigwakkre smart,
+    <l>Zelfs de onwilligen bereikt bezonnenheid,
+    <l><hi>Wel genâ van god die zelf door worstling</hi>
+    <l><hi>&apos;t Statig stuurgestoelt bezeten houdt.</hi>
+</lg>
+
+<p>Den groei van dezen Zeus heeft Aischylos willen teekenen in zijn Prometheusdrama&apos;s, zijn groei tot den vader van goden en menschen, den derden oppergod in de rij, maar die niet meer als zijn voorgangers ten val kan worden gebracht, omdat hij in zich heeft weten te vereenigen, met de onverwelkbare heerlijkheid der volkrachtige jeugd, de bezadigde wijsheid der ervaring die zijn voorgangers niet voor zich, maar voor hem van de eeuwen hadden geleerd. De Zeus van het tweede drama is een andere geworden naar blijkt uit zijn boden en daden, een aan wien Prometheus zich zonder gevaar onderwerpen kan. Zoo <hi>worden</hi> voor een Griek zijn goden.
+
+
+
+
+<pb id=pb1 n=1>
+</front>
+<body>
+<div1 id=persona type=Persona>
+<head>PERSONEN:</head>
+
+
+<castList>
+    <castItem><role id=hep>HEPHAISTOS</role>,</castItem>
+    <castItem><role id=kra>KRATOS</role>,</castItem>
+    <castItem><role id=bia>BIA</role>,</castItem>
+    <castItem><role id=pro>PROMETHEUS</role>,</castItem>
+    <castItem><role id=rei>REI VAN OKEANIEDEN</role>,</castItem>
+    <castItem><role id=oke>OKEANOS</role>,</castItem>
+    <castItem><role id=io>IO</role>,</castItem>
+    <castItem><role id=her>HERMES</role>.</castItem>
+</castList>
+
+<p>Het tooneel stelt voor een rotsgebergte in de nabijheid der zee aan de grenzen van het land der Skythen. Een door pieken gekroonde rotswand rijst, in het midden tegenover de toeschouwers, achter een kloof. Rechts is uitzicht op de zee. Links voert het bergland, dat met een enkele stortbeek is gestoffeerd, op naar het hooger gelegen midden. De handeling vangt aan in den morgen.
+
+
+
+
+<pb id=pb3 n=3>
+<div1 id=t1 type=Scene>
+<head>EERSTE TOONEEL</head>
+
+
+<stage>KRATOS, BIA, HEPHAISTOS, PROMETHEUS.</stage>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Wij zijn gekomen tot der aarde grensver plein,
+<l>De baan van Skythia, de onbetreden eenzaamheid.
+<l>Nu past, Hephaistos, u de zending aan te gaan,
+<l>Die vader Zeus u opdroeg: dat gij jokken zoudt
+<l>Ter hoogkanteelge rotsen dezen euvelaar
+<l>In stalen banden, boeien onverbrekelijk.
+<l>Uw eigen bloem toch, &apos;t barnen van &apos;t alkunstig vuur,
+<l>Stal hij en schonk het aan de stervers. Dus dient hij
+<l>Boete af te dragen aan de goôn voor zulk misdrijf,
+<l>Opdat hij onderwezen worde Zeus&apos; beheer
+<l>Te lieven en te laten van &apos;t menschminnend doen.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Kratos en Bia, voor u beiden heeft de last
+<l>Van Zeus hiermede een einde: niets bezwaart u meer.
+<l>Maar ik, hoe waag ik aan verwanten god &apos;t geweld
+<l>Van hem te boeien aan den stormbezochten rots?
+<l>... Toch dwingt de nood mij dat ik daar den moed toe vat;
+<l>Want vaders woorden licht te tellen wreekt zich zwaar...
+<l>O rechtberaden Themis&apos; listensteile zoon,
+<l>Weêrzinnig ga ik u, weêrzinngen, naaglen met
+<pb id=pb4 n=4><l>Onlosbre smeedsels aan dees menschgeschuwden piek.
+<l>Waar van geen stervling gij de stem of de gedaant
+<l>Speurt, maar geblakerd in de helle vlam der zon
+<l>Den bloei uws lijfs verwisselt. Als een lafenis
+<l>Komt nacht u &apos;t daglicht bergen in haar tintelwâ,
+<l>En zon opnieuw vervluchten morgenlijken rijp.
+<l>Doch staâg verteert u de erger van &apos;t aanwezig kwaad;
+<l>Want nog is niet geboren, die u lossen zal.&mdash;
+<l>Dat zijn de winsten die uw menschenmin behaalt.
+<l>Zelf god, schonkt gij der goden eerrecht tegen recht,
+<l>Zonder hun toorn te duchten, aan den stervling weg.
+<l>Daarvoor nu gaat gij hoeden dees vreugdloozen rots
+<l>Rechtstandig, zonder knie te knikken, slapeloos.
+<l>En vele klagen en weeroepen zonder baat
+<l>Slaakt gij; want zwaar vermurwlijk is de zin van Zeus:
+<l>Een ieder is hardvochtig, die aanvanklijk heerscht.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Welaan, wat draalt gij met uw nutteloos beklag?
+<l>Hoe kan u deren dees meest godgehate god
+<l>Die gaf uw eigen eerrecht stervelingen prijs?
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>&apos;t Verwante bloed en de omgang oefnen hoog gezag.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Dat is zoo. Maar staat ongehoorzaamheid u vrij
+<l>Aan Vaders woorden? Wat van twee heeft meer gezag?
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Gij kent geen meêlij, zijt altoos van snoodheid vol.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Hem te bejammren, immers, brengt geen heul. Ook gij
+<l>Spaar de vergeefsche moeite van wat toch niet nut.
+</sp>
+
+<pb id=pb5 n=5>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>O menigmaal verfoeide handenvaardigheid!
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Waarom haar schelden? Immers, aan dit huidig wee
+<l>Heeft, eerelijk gesproken, uwe kunst geen schuld.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>In ieder opzicht wenschte ik haar een aêr als deel!
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Elk ambt heeft zijn bezwaren buiten de oppermacht
+<l>Over de goden: geen is vrij dan Zeus alleen.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Dat zie &apos;k voor oogen, en weêrspreken kan &apos;k het niet.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Kom dus en haast u hem de boeien om te slaan;
+<l>Want anders mocht uw vader u aan &apos;t talmen zien.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Ziehier, de armboeien houd ik klaar, als elk kan zien.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Sla ze om de polsen henen, en met stoere kracht
+<l>Zwaai uwen hamer, nagel ze in de rotsen vast.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Dit werk wordt al voltrokken, slepen doet het niet.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Klop harder, nijp de boeien, laat geen speling toe.
+<l>Zijn groote list vindt uitweg waar geen uitweg is.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Deze arm zit onbeweeglijk: vaardig die hem lost.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Knel nu onwrikbaar de andre vast, opdat hij leer&apos;
+<pb id=pb6 n=6><l>Dat zijne wijsheid dwaasheid is bij die van Zeus.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Geen kan met recht mij laken, of &apos;t moest deze zijn.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Nu drijf dwars door de borstkas met uw volle kracht
+<l>Der stalen wigge mededoogenlooze kaak.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>...Wee, wee, Prometheus, &apos;k steen om wat gij lijden moet!
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Weêr zie &apos;k uw ijver flauwen, weêr zucht ge over Zeus&apos;
+<l>Vijanden? Als ge u later zelf maar niet beklaagt!
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Gij schouwt een schouwspel zwaar voor oogen aan te zien.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Ik zie hoe deze zijn verdiende loon erlangt.
+<l>Leg nu om zijne lendnen de ijzren gordels aan.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Helaas, ik moet wel&mdash;gij, laat uw bevelen na.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>&apos;k Zal u naar lust bevelen, en nog hitsen ook!
+<l>Ga nu naar onder: ring zijn enkels met geweld!
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Ziedaar: het werk is zonder veel bezwaar volbracht.
+</sp>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Drijf nu nog kloek de klinken in de boeien aan;
+<l>Want die uw werk zal keuren, is een grimmig heer.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Uw tong schalt klanken aan uw uiterlijk gelijk.
+</sp>
+
+<pb id=pb7 n=7>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Wees gij flauwhartig&mdash;van mijn onverstoorbaarheid
+<l>En onvermurwden ijver maak mij geen verwijt.
+</sp>
+
+<sp who=hep>
+<speaker>HEPHAISTOS:</speaker>
+
+<l>Nu, laat ons heengaan: ongekluisterd bleef geen lid.
+</sp>
+
+<stage>(<hi>Hij verwijdert zich met</hi> BIA; KRATOS <hi>blijft bij</hi> PROMETHEUS <hi>achter</hi>.)</stage>
+
+
+
+<pb id=pb8 n=8>
+<div1 id=t2>
+<head>TWEEDE TOONEEL</head>
+
+
+<stage>KRATOS, PROMETHEUS.</stage>
+
+<sp who=kra>
+<speaker>KRATOS:</speaker>
+
+<l>Vier nu en hier uw moedwil, roof en schenk der goôn
+<l>Eerrechten aan de eendagelingen. Wat vermag
+<l>De stervling om u te verlichten van dees nood?
+<l>Prometheus, den Voorziener, noemen u de goôn&mdash;
+<l>Met leugen: een voorziener toch behoeft gij zelf,
+<l>Hoe ooit te ontglippen aan de grepen dezer kunst.
+</sp>
+
+<stage>(<hi>Hij gaat</hi> HEPHAISTOS <hi>en</hi> BIA <hi>achterna</hi>.)</stage>
+
+
+
+<pb id=pb9 n=9>
+<div1 id=t3>
+<head>DERDE TOONEEL</head>
+
+
+<stage>PROMETHEUS ALLEEN.</stage>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>O goddlijke aither, en snelvleuglige ademen,
+<l>En bronnen van rivieren, en van &apos;t zeegestrook
+<l>Het talloos lachen, en almoeder aard,
+<l>En &apos;t alziend rond der zonne roep ik aan:
+<l>Ziet welke dingen ik, een god, van goden lijd!
+
+<milestone unit=tb rend=space>
+
+<l>Ziet, door de krenking van wat kwalen
+<l>Vermaald, ik zwoegen zal
+<l>Den tienmaalduizendjaargen tijd!
+<l>Zoo smadelijke banden
+<l>Heeft tegen mij bedacht
+<l>Der zaalgen nieuwe vorst.
+<l>Wee wee! ik steen om &apos;t huidig en &apos;t toekomend wee:
+<l>Hoe ooit van deze ellenden
+<l>Het eind mag opgaan!
+
+<milestone unit=tb rend=space>
+
+<l>En toch, wat spreek ik?&mdash;Zonneklaar weet ik vooruit
+<l>De gansche toekomst. Nimmer onvermoed zal mij
+<l>Een leed genaken.... Zijn beschikte lot moet men
+<l>Naar &apos;t kan gelaten dragen door het inzicht dat
+<pb id=pb10 n=10><l>De macht van &apos;t noodlot toch niet te bekampen is...
+<l>Maar zwijgen of niet zwijgen van dit ongeval&mdash;
+<l>Ik heb geen keuze. Stervers schafte ik goderecht,
+<l>En ben, rampzaalge, nu in dezen dwang gejokt,
+<l>&apos;k Ving in de holte van het tondelriet van &apos;t vuur
+<l>De steelsche bron die aller kunsten meesteres
+<l>Den stervelingen en een machtge helpster bleek.
+<l>Voor zulk een misdaad boet ik de verbeurde straf,
+<l>Den smaad van deze banden onder de&apos; open dag...
+
+<milestone unit=tb rend=space>
+
+<l>Ah ah!
+<l>Wat klank vliegt mij toe? Wat onzichtbre geur&mdash;
+<l>Van god? van mensch? van gemengd geslacht?&mdash;
+<l>Reikt tot den aardebegrenzenden rots?
+<l>Wie komt, mijn leed te aanschouwen? of waar anders toe?
+<l>Ziet den rampspoedgen, den in boei geslagen god,
+
+<milestone unit=tb rend=space>
+
+<l>Mij, vijand van Zeus, en bij alle de goôn
+<l>Die betreden de vloeren van Zeus&apos; hoog hof,
+<l>Tot het uiterst gehaat om te machtige min
+<l>Tot het sterflijk geslacht.&mdash;
+
+<milestone unit=tb rend=space>
+
+<l>Wee wee! wat hoor ik voor keerend gerucht
+<l>In der vooglen gebied? Op den aither vergonst
+<l>Het gezwinde geklep van der vleugelen slag...
+<l>Vrees brengt al wat mij nabij komt...
+</sp>
+
+
+
+<pb id=pb11 n=11>
+<div1 id=t4>
+<head>VIERDE TOONEEL</head>
+
+
+<stage>PROMETHEUS, REI VAN OKEANIEDEN.</stage>
+
+<stage type=setting>(<hi>De rei bestaat uit twaalf Okeanieden, dochters van Okeanos en Thetys. Zij verschijnen rechts, van den zeekant, op gevleugelde wagens, en zijn voor den toeschouwer eerder zichtbaar dan voor Prometheus, die niet terzijde zien kan.</hi>)</stage>
+
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Niets te vreezen: deze schare
+<l>Naakt met vriendelijk bedoelen&mdash;
+<l>Niet dan nauwlijks overreedde ik vaders onwil&mdash;
+<l>Op der vleuglen vluggen wedstrijd
+<l>Tot de hoogten van den rots.
+<l>&apos;t Lichte geleî van den luchtstroom droeg mij.
+
+<milestone unit=tb rend=space>
+
+<l>Want het dreunen van den moker
+<l>Op het staal doorklonk de diepte
+<l>Der spelonken, en de schrik dreef uit mijn hart weg
+<l>Zedigschuchtre schaamte:
+<l>Ongeschoeid snel ik aan op &apos;t gevederd voertuig!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Aai aai!
+<l>Dochtren, door vader Okeanos
+<pb id=pb12 n=12><l>Die in den keerkring van zijn slapeloozen stroom
+<l>Heel de aarde omvat,
+<l>Verwekt uit kinderrijke Thetys&mdash;
+<l>Aanziet, aanschouwt in welke banden
+<l>Ik vastgehecht hoog aan de pieken
+<l>Van dezen rotswand
+<l>Een onbenijde wacht ga voeren.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>&apos;k Zie, Prometheus&mdash;voor mijn oogen
+<l>Trekt de duistre nevel samen
+<l>Zwaar van tranen bij den aanblik
+<l>Van uw lijf dat gaat verdorren
+<l>Aan den zongeblaakten rots
+<l>Waar deze stalen hoon u ketent.
+
+<milestone unit=tb rend=space>
+
+<l>Op de&apos; Olympos immers heerschen
+<l>Nieuwe stuurders aan de roerpen:
+<l>Zeus, naar ongekende wetten,
+<l>Is er meester zonder toezicht.
+<l>Hij verduistert al vorig geweld.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Och had hij mij onder de aarde en
+<l>Beneden der dooden huisvest Hades
+<l>Gestort in mateloozen Tartaros,
+<l>Geslagen daar in wreede onlosbre boeien,
+<l>Dat god noch ander wezen
+<l>Zich over dit mijn leed verblijdde...
+<l>Nu, wankel tusschen aarde en hemel, lijd ik
+<l>Rampzaalge mijner haatren welbehagen.
+</sp>
+
+<pb id=pb13 n=13>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Wie van de goôn is zoo verhard van hart,
+<l>Die hierin leedbehagen heeft?
+<l>Wie deelt niet de&apos; erger om uw kwalen&mdash;
+<l>Behalve Zeus? Hij, in aanhoudend wrokken,
+<l>Met onverzettelijk gemoed,
+<l>Oefent geweld aan &apos;t hemelsche geslacht:
+<l>Hij houdt niet op vóor hij zijn hart verzaad heeft,
+<l>Of éen bij nieuwen staatsgreep rooft de zwaar te rooven almacht.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Toch zal nog eens, al hang ik thans te hoon
+<l>In boeien zwaar, naar mij in nood geraken
+<l>Der zaligen bestuurder,
+<l>Dat ik hem duid&apos; den nieuwen aanslag
+<l>Die staf en waardigheid hem uitschudt.
+<l>Dan zal hij mij met honingtalig
+<l>Gevlei van overreding niet bekoren,
+<l>En nooit uit angst voor strafst bedreigen
+<l>Laat ik het woord los vóor hij slaakt
+<l>Dees wreede boeien en mij boete
+<l>Van dezen smaad betalen wil.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Gij geeft in uw vermetelheid
+<l>Aan felste smarten niets gewonnen;
+<l>Uw mond leert nimmer deemoed...
+<l>Maar mij doorpriemt het hart de stekel van de vrees,
+<l>Ik ducht om wat u staat te wachten:
+<l>Hoe ge ooit uit deze zee van nooden
+<pb id=pb14 n=14><l>Moogt landen en haar eind aanschouwen...
+<l>Want niet te vinden is &apos;t gemoed, niet te beroepen &apos;t hart van Kronos&apos; zoon.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>&apos;k Weet dat hij hard is, dat hij &apos;t recht
+<l>Stelt naar zijn eigen hand.
+<l>Toch zal hij, denk ik, straks
+<l>Wanneer die nood hem slaat,
+<l>Weekmoedig wezen:
+<l>Dan baant hij starren toorn tot effen pad,
+<l>Dan treedt om vredebond en vriendschap
+<l>Zijn ongeduld mijn ongeduld tevoren.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Ontvouw en openbaar ons heel den samenhang,
+<l>Op grond van wat betichten Zeus u grijpen liet
+<l>En u zoo smaadlijk en zoo bitterwreed kastijdt.
+<l>Leer ons de waarheid&mdash;of &apos;t uitspreken mocht u schaên...
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Wel zijn dees dingen te verhalen smartlijk mij,
+<l>Doch smart ook is &apos;t verzwijgen&mdash;: alzijds ongeval!
+<l>Vandat partijhaat uitbrak bij de zaligen
+<l>En onderlinge tweedracht deelend zich verhief,
+<l>Daar de éenen Kronos wilden werpen van den troon
+<l>En Zeus de heerschap geven, de andren ijverden
+<l>Dat nooit of nimmer Zeus de goden zoû gebiên,&mdash;
+<l>Heb den Titanen, Oeranos&apos; en Gaia&apos;s kroost,
+<l>Ik daadlijk besten raad geschaft, maar niet vermocht
+<l>Hen te overreden. In hun stoeren eigendunk
+<pb id=pb15 n=15><l>Verachtten ze alle list als middel: met geweld
+<l>Dachten zij te overmogen zonder slag of stoot.
+<l>Maar mij had mijne moeder Themis meer dan eens,
+<l>En Gaia, &apos;t éene wezen onder namen veel,
+<l>Voorkondigd hoe de toekomst zich vervullen zoû:
+<l>Dat de overwinning niet aan kracht of aan geweld
+<l>Zoû komen, maar aan wie in list had overmocht.
+<l>Dat heb ik hun met zooveel woorden uitgelegd,
+<l>Maar zelfs tot aandacht hebben zij zich niet verwaard.
+<l>Bij dezen staat van zaken scheen mij veiligst toe
+<l>Om saam met mijne moeder, reede en welkom, mij
+<l>Te scharen bij de medestanderen van Zeus.
+<l>En naar mijn raadslag bergt nu &apos;t donkerdiepe ruim
+<l>Van Tartaros oerouden Kronos samen met
+<l>Zijn bondgenooten. Zulke diensten heeft van mij
+<l>Der goden overweldger ondervonden en
+<l>Op zijn beurt hen vergolden met dit booze loon.
+<l>Want dat is wel de krankheid die al tyrannie
+<l>Aankleeft, dat men zijn vrienden geen vertrouwen schenkt.
+<l>Doch wat aangaat uw vragen, om wat oorzaak hij
+<l>Mij hoont en tuchtigt, geef ik garen u bescheid.
+<l>Zoodra Zeus was gezeten op zijn vaders troon,
+<l>Wijst hij onmiddlijk aan een elk der goden toe
+<l>Zijn eigen eerrecht, deelt en regelt het bewind.
+<l>Maar met de armzaalge stervelingen hield zijn plan
+<l>Geen reekning. Ja, hij wilde hun geheel geslacht
+<l>Verdelgen tot het scheppen van een ander nieuw.
+<l>Hiertegen in verzet kwam niemand. Ik alleen,
+<l>Ik waagde &apos;t. &apos;k Heb de stervers van hun doem gered
+<l>Om reddeloos verdorven Hades in te gaan.
+<pb id=pb16 n=16><l>Daarom is &apos;t dat ik onder deze pijnen krimp,
+<l>Die smartlijk zijn te lijden, deerniswaard te zien.
+<l>Mijn daad was deernis tot de stervers, doch ik-zelf
+<l>Werd die niet waard bevonden, maar meêdoogenloos
+<l>Verwezen tot dit Zeus-onteerend schouwtooneel.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Diens hart is ijzer in zijn rotsgehouwen borst,
+<l>Die niet, Prometheus, de&apos; erger om uw nooden deelt.
+<l>Ik toch, hoe garen had ik nooit dit aangeschouwd!
+<l>En nu ik &apos;t aanzie, wordt mijn hart door pijn geprangd.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ja, wel ben ik mijn vrienden deerniswaard te zien.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Als maar uw stoutheid niet nog verder ging dan dit...
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>De stervers heelde ik van den dood vooruit te zien.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Wat middel tegen deze krankheid vondt gij uit?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>De hoop, die blind is, heb ik in hun borst behuisd.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Een groote winst was deze uw gaaf den sterveling.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Maar buitendien nog heb ik hun het vuur verstrekt.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>En nu bezit de eendaagling den vlamglans van &apos;t vuur?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ja, en in vele kunsten onderwijst het hem.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Zeus dan om oorzaak van geen zwaarder schuldverwijt&mdash;
+</sp>
+
+<pb id=pb17 n=17><sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Straft met zijn hoon mij, laat van geene kwelling af.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>En is geen einde van uw zwoegen u beschikt?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Geen ander dan het tijdstip dat aan hem behaagt.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Hoe mag &apos;t behagen? Is er hoop? Ziet gij niet in
+<l>Dat gij misdaan hebt? Dat gij hebt misdaan, is mij
+<l>Een grief te zeggen... U is &apos;t smart... Ook weegt dit niet
+<l>Ter zake ... Zoek naar eenige&apos; uitweg uit uw nood!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Voor wie zijn voeten buiten leed heeft, is het licht
+<l>Te sporen of te gispen wien het boos vergaat...
+<l>Doch ik, alle gevolgen wist ik lang vooruit.
+<l>Bewust, bewust misdeed ik&mdash;ik ontken het niet:
+<l>Den stervling helpen hielp mij-zelven in ellend.
+<l>Toch kon &apos;k niet denken dat in zulk een straf als dees
+<l>Ik zoû verschromplen aan de tinnen van den rots
+<l>Op dezen alverlaten nabuurloozen piek...
+<l>Laat me af van jammren om dit oogenblikklijk wee!
+<l>Doch daalt ter aarde en luistert wat al ongeval
+<l>Nog dreigt, opdat gij alles tot den einde leert.
+<l>Geeft toe, geeft toe mijn bede: deelt de ellend van een
+<l>Die nu in nood is: eender op zijn tijd tot elk
+<l>Komt lijden in zijn zwerfgang om een onderdak.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Reeds willig, Prometheus, vindt ons uw roep
+<l>Om te doen wat gij vraagt.
+<l>Nu verlaat ik mijn windsnel-ijlende koets
+<pb id=pb18 n=18><l>En den heiligen aither, der vooglen revier;
+<l>Nu naak ik op voeten der hinde den grond
+<l>Dezer grimmige rotsen: mijn hart gaat uit
+<l>Om uw nooden ten einde te hooren.
+</sp>
+
+
+<stage>(<hi>Zij stijgen van hare wagens af.</hi>)</stage>
+
+
+
+
+<pb id=pb19 n=19>
+<div1 id=t5>
+<head>VIJFDE TOONEEL</head>
+
+
+<stage>PROMETHEUS, REI VAN OKEANIEDEN, OKEANOS.</stage>
+
+<sp who=oke>
+<speaker>OKEANOS (<hi>verschijnt op een gevleugelden draak</hi>):</speaker>
+
+<l>Ik bereik u, Prometheus, &apos;t doel van het pad
+<l>Mijner durige reize, gestegen op dees
+<l>Snelvleugligen draak dien &apos;k enkel bestuur
+<l>Met de toomen der stille gedachte.&mdash;
+<l>Weet wel dat ik deel in de smart van uw lot;
+<l>Want daartoe dringt mij verwantschap en bloed;
+<l>Maar ook buitendien is geen wien &apos;k gun
+<l>In mijn achting een hoogeren zetel dan u.
+<l>Dat ik waarheid spreek, dat mijn tong niet vleit
+<l>Schijnwoorden om gunst, ondervindt gij terstond:
+<l>Openbaar wat hulp ik betoonen u kan:
+<l>Op een hechteren vriend dan Okeanos is,
+<l>Zult nimmer ge u kunnen beroemen.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Wat is er nu weêr? Komt ook gij om toe te zien
+<l>Bij mijne nooden? Hoe hebt gij gewaagd den stroom
+<l>Die uwen naam voert, en uw grotten rotsgedakt
+<l>Natuurgehouwen te verlaten voor dit land
+<l>Drachtig van ijzer? Of zijt gij gekomen om
+<l>U met mij te ergren in den aanblik van mijn leed?
+<pb id=pb20 n=20><l>Aanzie dit schouwspel, dezen bondgenoot van Zeus,
+<l>Die saam met hem bevest heeft zijne heerschappij,
+<l>Met welke kwalen ik door hem gefolterd word.
+</sp>
+
+<sp who=oke>
+<speaker>OKEANOS:</speaker>
+
+<l>Ik zie, Prometheus,&mdash;en al zijt gij listenbont,
+<l>&apos;k Wil u te sporen trachten met mijn besten raad.
+<l>Keer tot u-zelven, stem tot nieuwe wijzen om
+<l>Uw inborst: nieuw ook is de heerscher bij de goôn.
+<l>Als gij blijft slingren zulke fel gewette reên,
+<l>Allicht mocht Zeus u, staat zijn stoel ook nog zoo hoog,
+<l>Vernemen, en in &apos;t einde dunkt zijn huidge toorn
+<l>Met al zijn kwalen u nog kinderspel te zijn.
+<l>Maar, o rampzaalge, laat van uwen wrevel af
+<l>En zoek naar een verlossing uit dees kwellingen.
+<l>Misschien lijkt u verouderd wat ik zeggen ga:
+<l>Dit is het eenig handgeld dat men beuren kan,
+<l>Prometheus, met te pralend pochen van de tong.
+<l>Gij blijft hoovaardig, onder rampen bukt gij niet,
+<l>En bij uw rampen zoekt gij nieuwer rampen winst.
+<l>Als gij dus naar mijn onderwijzing hooren wilt,
+<l>Sla tegen prikkels niet de <corr sic=verznen>verzenen</corr>; want gij ziet:
+<l>Een grimmig heerscher zonder rekenschap regeert.
+<l>En nu ga ik heen, laat geen poging onbeproefd
+<l>Of ik uit deze nooden u verlossen kan.
+<l>Doch gij, blijf rustig, toom uw monds onstuimigheid.
+<l>Of weet gij, die terecht alwijs genaamd wordt, niet
+<l>De tuchtging die der ijdle tong wordt ingeprent?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>&apos;k Prijs uw geluk al, dat gij straffeloos uitgaat,
+<l>Die u verstout hebt deel te nemen in mijn lot.
+<pb id=pb21 n=21><l>Nu laat het wezen, spaar uw zorg. Gij overreedt
+<l>Hem toch niet; want voor overreding is hij doof.
+<l>Wees zelf omzichtig dat uw gang geen smartgang wordt.
+</sp>
+
+<sp who=oke>
+<speaker>OKEANOS:</speaker>
+
+<l>Veel beter maant uw aanleg andren dan u-zelf
+<l>Tot rede: niet maar woorden, feiten zijn bewijs.
+<l>Doch houd mij hunkrend naar de reize niet terug.
+<l>Want groot maak ik mij, &apos;k maak mij groot dat Zeus dees gunst
+<l>Mij toestaat, en uit deze nooden u bevrijdt.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Deels prijs ik, houd u nimmermeer te prijzen op;
+<l>Want in bereidheid schiet gij niets te kort. Toch laat
+<l>Uw moeite: zonder mij te baten zoudt vergeefs
+<l>Ge u moeien, als gij u al moeite geven wilt.
+<l>Maar houd in rustig toezien zelf u buiten schot.
+<l>Want ik, al ben &apos;k rampzalig, zoû daarom niet graag
+<l>Zoovelen mooglijk naast mij zien met leed bedeeld.
+<l>O neen ik&mdash;diep genoeg al schrijnt mij &apos;t ongeluk
+<l>Mijns broeders Atlas die ter avondlandsche steê
+<l>De zuil des hemels en der aard te stutten staat
+<l>Met zijne schoudren, kwadelijk te wiegen last.
+<l>Met deernis ook zag &apos;k hoe de reuzge burchtheer van
+<l>Kilikia&apos;s grotten, het strijdbarnend monster met
+<l>Zijn honderd koppen, door geweld beteugeld werd,
+<l>Grimmige Typhoon die al goden weêrstand bood,
+<l>Uit grouwelijke kaken sissespreidend vrees.
+<l>Hij bliksemde uit zijn oogen schrikstijvenden gloed
+<l>Als ging zijn oerkracht nederhalen Zeus&apos; bewind.
+<l>Maar op hem neder voer diens slapelooze lans,
+<l>De steilgetrede bliksem blazend vuur en vlam,
+<pb id=pb22 n=22><l>Die midden in de grootspraak zijner blufferij
+<l>Hem stom smeet. Want vlak in het middenrif geraakt,
+<l>Werd hij versinteld; donder sloeg zijn krachten murw.
+<l>En nu, een hulpelooze werktuiglijke romp,
+<l>Ligt hij ter zijde van de nauwe straat der zee
+<l>Onder de wortlen van berg Aitna neêrgedrukt;
+<l>En boven op de toppen zit en smeedt zijn staal
+<l>Hephaistos. Toch eens zullen breken vandaar uit
+<l>Rivieren vuur, die vreten in haar wilden muil
+<l>De vlakke bunders van vruchtbaar Sikelia
+<l>Met heete beten van onnaakbren vlammevloed.
+<l>In zulk een toornen ziedt nog eenmaal Typhoon op,
+<l>Al ligt hij door den bliksem nu van Zeus verkoold.&mdash;
+<l>Gij hebt genoeg ervaring, onderwijs van mij
+<l>Is u niet noodig: red u-zelf zoo goed gij kunt.
+<l>Ik stuur alleen wel tegen &apos;t huidig onheil op,
+<l>Tot Zeus bezonnen af zal laten van zijn toorn.
+</sp>
+
+<sp who=oke>
+<speaker>OKEANOS:</speaker>
+
+<l>Ziet gij, Prometheus, dan niet in dat redenen
+<l>Voor ziel die ziek van toorn is, als heelmeesters zijn?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ja, als men tijdig &apos;t hart met zalf te streelen weet,
+<l>Maar niet als men ruwhandig &apos;t zeer gemoed nog kneust.
+</sp>
+
+<sp who=oke>
+<speaker>OKEANOS:</speaker>
+
+<l>Wat mooglijk nadeel ziet gij&mdash;geef mij onderricht&mdash;
+<l>In bereidwillge vriendschap die het uiterst waagt?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Moeite overbodig en lichtzinnge onnoozelheid.
+</sp>
+
+<sp who=oke>
+<speaker>OKEANOS:</speaker>
+
+<l>Gun dat gebrek mij: die verstandig is, behaalt
+<pb id=pb23 n=23><l>Het grootste voordeel door den schijn van onverstand.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>U wordt de dwaasheid aangerekend&mdash;mij de schuld.
+</sp>
+
+<sp who=oke>
+<speaker>OKEANOS:</speaker>
+
+<l>Uw woord zendt me onverholen weêr naar huis terug.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Uit vrees dat mij bejammren u in onmin stort.
+</sp>
+
+<sp who=oke>
+<speaker>OKEANOS:</speaker>
+
+<l>Met hem die nieuwlings op den stoel der almacht zit?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Wees op uw hoede dat gij nooit zijn hart vergramt.
+</sp>
+
+<sp who=oke>
+<speaker>OKEANOS:</speaker>
+
+<l>Dat leert, Prometheus, mij uw eigen ongeluk.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Haast u ter reize: red het inzicht dat gij wont!
+</sp>
+
+<sp who=oke>
+<speaker>OKEANOS:</speaker>
+
+<l>&apos;k Ben onderweg al, nu uw roep mij manen komt.
+<l>Zie, de effen baan des aithers veegt met vleugelen
+<l>&apos;t Viervoetig rijdier. Blijde, denk ik, zal hij zijn
+<l>Zijn knieën weêr te buigen in gewenden stal.
+</sp>
+
+
+
+<pb id=pb24 n=24>
+<div1 id=t6>
+<head>ZESDE TOONEEL</head>
+
+
+<stage>PROMETHEUS, REI VAN OKEANIEDEN.</stage>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>&apos;k Beklaag u om uw heilloos lot, Prometheus!
+<l>Droppel na droppel pleng ik uit mijn oogen
+<l>Der tranen milden stroom.
+<l>Zijn vochte dauw bevloeit mijn wangen.
+<l>Want dit onbenijdbaar lijden
+<l>Dat naar willekeurge wetten
+<l>Zeus beschikt,
+<l>Dreigt al vroegren goden samen
+<l>Overmoedge dwinglandij.
+
+<milestone unit=tb rend=space>
+
+<l>Reeds galmt het gansche wijde land van klachten:
+<l>Ik hoor den westerling bejammren
+<l>Van u en van uw bloedgenooten
+<l>Hoogheerlijke edeloude macht.
+
+<milestone unit=tb rend=space>
+
+<l>Al de stervers die bevolken
+<l>Heilige Asia&apos;s ruime woonsteê,
+<l>Deelen met u in het zwoegen
+<l>Van uw zuchtenluide wee:
+<pb id=pb25 n=25><l>Die in &apos;t land van Kolchis huizen,
+<l>Maagden nimmer strijd ontdeinzend,
+<l>En de drom van Skythen die der
+<l>Aarde verstgelegen streken
+<l>Om &apos;t Maiotisch meer bezetten,&mdash;
+
+<milestone unit=tb rend=space>
+
+<l>Aria&apos;s manhafte bloesem,
+<l>Die de hooggetinde vesting
+<l>Naast den Kaukasos bewonen,
+<l>Strijdbre benden die rumoeren
+<l>Met de scherpgeboegde lansen&mdash;&mdash;
+
+<milestone unit=tb rend=space>
+
+<l>Eén enklen andren god zag ik tot nu,
+<l>Eén Titan, eveneens
+<l>In lijden overweldigd:
+<l>Atlas die onverpoosd
+<l>&apos;t Ontzaggelijk hooge gevaarte der aard
+<l>Saam met de hemelsche as
+<l>Boven zijn zuchten torst&mdash;:
+
+<milestone unit=tb rend=space>
+
+<l>De roep der zee valt ruischend in; de diepte kreunt;
+<l>Het donker ruim van Hades rommelt onder de aard;
+<l>Der heilige rivieren bronnen stenen vloeibre deernis.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Wijt niet aan ingebeeldheid of aan ijdlen trots
+<l>Mijn zwijgen. Diepgevoelde wrok verteert mijn hart,
+<l>Dat ik met zulke smaadheid mij mishandeld zie...
+<l>En toch, wie anders in-den-grond wel wees dan ik
+<l>Aan deze nieuwe goden hun eerrechten toe?
+<l>Doch daarvan zwijg ik. Waartoe zoude ik wat gij weet
+<pb id=pb26 n=26><l>Bespreken? Luistert liever welke ellende ik vond
+<l>Onder de stervers, hoe zij reêloos waren eer
+<l>Ik hen bedeelde met bewustheid en verstand...
+<l>Niet daar &apos;k den menschen iets verwijt, verhaal ik dit&mdash;
+<l>Der gaven goed bedoelen stel ik in het licht...
+<l>Zij keken eertijds ziender-oogen zonder zien,
+<l>En hoorden zonder hooren; &apos;t lieve leven lang
+<l>Gelijk droomschimmen warden ze alles hulpeloos
+<l>Dooreen; hout te verwerken noch uit tichelsteen
+<l>Zon-open huizen op te trekken wisten zij;
+<l>Maar onder de aard vergraven in het zonloos diep
+<l>Van holen woonden ze als het wriemlend mierendom.
+<l>En geen beproefd kenteeken duidde hun de komst
+<l>Van winter of van bloemenvollen voorjaarstijd
+<l>Of vruchtenrijpen zomer; al hun doen ontbrak
+<l>Begrip en inzicht, tot ik hun heb wijsgemaakt
+<l>Der starren zwaar te kennen op- en nedergang.
+<l>En verder vond ik de getallen voor hen uit,
+<l>Den sleutel van al weten, en het letterschrift,
+<l>Al dings gedachtnis, zoogster aller moezenkunst.
+<l>Het eerst ook temde ik onder &apos;t jok het wilde vee,
+<l>Dat, slaven van het trekzeel en het zadelpak,
+<l>Zij van de stervers overnamen &apos;t zwaarst gezwoeg.
+<l>Ook spande ik aan de waagnen &apos;t leidselvolgzaam ras
+<l>Der paarden, overrijker weelde schoonen pronk.
+<l>En niemand anders vóor mij heeft der schipperen
+<l>Zeezwervend zeilbevleugeld voertuig uitgedacht...
+<l>Ik die den stervers diergelijke middlen vond,
+<l>Ben, zelf rampzalig, tot geen enkle vondst instaat,
+<l>Waardoor ik zoude ontkomen aan dit huidig wee.
+</sp>
+
+<pb id=pb27 n=27><sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Smaadlijke kwelling! Dolen doet gij, van verstand
+<l>Verbijsterd, als geneesheer die tot krankheid komt
+<l>En in onmachtge wanhoop voor zich-zelven niet
+<l>Het middel weet te vinden, dat genezing brengt.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Nog meer zult gij bewondren, als gij verder hoort
+<l>Wat kunsten en uitwegen ik verzonnen heb.
+<l>Al daadlijk: als er vroeger een van hen verviel
+<l>Tot krankheid, kenden zij geen leenging, zalf noch drank
+<l>Noch eetbaar kruidsel; door gebrek aan middelen
+<l>Verdorden hunne lijven vóórdat ik hun wees
+<l>Hoe te bereiden pijnstillende mengselen,
+<l>Waarmeê voor elke ziekte zij zich veiligen.
+<l>De vele wijzen ook der waarzegkunst heb ik
+<l>Begrond. Ik onderscheidde van de droomen &apos;t eerst,
+<l>Welke in vervulling treden; duidde hun de zwaar
+<l>Schiftbre geruchten, de onderweegsche teekenen.
+<l>De vlucht der kromgeklauwde vooglen heb &apos;k gebaakt
+<l>In zuivre grenzen: welke gunstig uitteraard
+<l>Zijn, welke ongunstig, en de levenswijs van elk,
+<l>Wat vijandschappen en bevriendheên onderling
+<l>Hen deelen of tot samenkomsten gaderen.
+<l>Der ingewanden gaafheid leerde ik hun: wat kleur
+<l>De gal moet hebben, die den goden meest behaagt,
+<l>De bonte wissling van der leverlobben vorm.
+<l>Ik hielp op weg hen in de moeizame offerkunst:
+<l>De zware heupen en de schenklen vet-omwoeld
+<l>Verbrandde ik, en der vlammen teeknen, die voordien
+<l>Starduister waren, heb &apos;k verzichtbaard voor hun oog.
+<pb id=pb28 n=28><l>Zoo waren dees mijn gaven.... En wat onder de aard
+<l>Den menschen aan hulpmiddlen weggeborgen ligt,
+<l>Brons, ijzer, goud en zilver&mdash;wie kan zeggen dat
+<l>Hij hen heeft uitgevonden eer dan ik het deed?
+<l>&apos;k Weet zeker, niemand, die niet ijdel bluffen wil.&mdash;
+<l>Verneem dan alles in éen bondig woord vervat:
+<l>Geen kunst die niet den stervers van Prometheus stamt.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Gij die den stervers boven mate hebt gebaat,
+<l>Besteed aan eigen rampspoed thans uw zorg; want ik
+<l>Ben goeder hope dat, uit deze banden los,
+<l>Gij eens nog even machtig wezen zult als Zeus.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Nog niet gewezen is &apos;t vervullingdragend lot
+<l>Dat dit zóo zal geschieden. Door oneindge pijn
+<l>En smart gekromd eerst, mag &apos;k ontkomen aan den boei.
+<l>Want alle kunst blijft machtloos bij noodwendigheid.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Wie dan wel stuurt de roerpen dier noodwendigheid?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Gedachtge Erinyen, met der Moiren driegedaant.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>En is Zeus dus de minder machtge dezer zes?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ook hij zoû niet ontkomen aan &apos;t bestelde lot.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Wat aêrs dan eeuwig heerschen is Zeus voorbeschikt?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Dat zoudt gij niet vernemen: dring er niet op aan!
+</sp>
+
+<pb id=pb29 n=29><sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Een schrikkelijk geheim is &apos;t, wat gij ons verhult?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Gedenkt een andre rede. Thans is &apos;t niet de tijd
+<l>Dit te verluiden. Dieper moet ik het dan ooit
+<l>In stilte domplen. Want door dit bewaard geheim
+<l>Ontkom ik mijnen smarten en der banden smaad.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Moge nimmer
+<l>Zeus die alle ding bestiert,
+<l>Aan mijn wil zijn macht vijandig overstellen!
+<l>Moge ik nimmer ook vertragen
+<l>In het dienen van de goden
+<l>Bij de heiige runderslachtende offermalen
+<l>Aan den oever van Okeanos&apos;, mijn vaders,
+<l>Niet te dempen stroom!
+<l>Moge ik nooit met woorden mij bezondgen,
+<l>Maar laat onvervaagd beklijven
+<l>Deze wijsheid
+<l>In de taaflen van mijn hart:
+
+<milestone unit=tb rend=space>
+
+<l>Zoet is het aaneen te rijen
+<l>Al de dagen van zijn leven
+<l>Tot een snoer geruste hoop,
+<l>Wijl het hart aan stralende geneuchten
+<l>Zich verkwikt en nooit verzaadt&mdash;
+<l>Maar uw aanblik doet mij huivren,
+<l>Hoe door kwalen gij vermaald wordt,
+<l>Niet te tellen, zelf-gekozen...
+<pb id=pb30 n=30><l>Immers zonder Zeus te duchten
+<l>Viert uw eigendunk te zeer den sterveling, Prometheus!
+
+<milestone unit=tb rend=space>
+
+<l>Zie nu hoe zonder dank de weldaad blijft, mijn vriend!
+<l>Zegt wat verweer en waar?
+<l>Wat helpt de bijstand der eendagelingen?
+<l>En ziet gij niet
+<l>De krachtelooze droomgelijke
+<l>Onmacht waarin belemmerd
+<l>Het blind geslacht der stervelingen rondtast?
+<l>Geen kans dat ooit der menschen raadslag ga
+<l>Zeus&apos; wereld-evenwicht tebuiten!
+
+<milestone unit=tb rend=space>
+
+<l>Dit leerde ik uit den aanblik van uw heilloos lot, Prometheus.
+<l>... Hoezeer verscheiden klinkt het lied dat in mij opwelt,
+<l>Van vroeger lied dat &apos;k hief ter viering van uw huwlijk
+<l>Naast bruîgoms bad en bed,
+<l>Toen gij door overreding van geschenken
+<l>Hesiona, mijn vaders dochter,
+<l>Voerde als uw vrouw tot bijslaaps zoet geweld.
+</sp>
+
+
+
+<pb id=pb31 n=31>
+<div1 id=t7>
+<head>ZEVENDE TOONEEL</head>
+
+
+<stage>PROMETHEUS, REI VAN OKEANIEDEN, IO.</stage>
+
+<sp who=io>
+<speaker>IO (<hi>zij komt op van links, van de landzijde</hi>):</speaker>
+
+<lg>
+<l>Wat land? Wat volk? Wat man is dees
+<l>Dien &apos;k weerloos zie tegen regen en zon
+<l>Aan de rotsen gehaakt?&mdash;
+<l>Zeg boetend voor wat misdrijf gij versmacht!
+<l>Der ellendige duid,
+<l>Waarheen ik ter wereld verdoold ben!
+
+<milestone unit=tb rend=space>
+
+<l>O o!
+<l>Weêr steekt onzaalge mij de horzels-angel...
+<l>Weêr zie ik&mdash;weer het, Zeus!&mdash;het spook van Argos,
+<l>Der Aarde zoon, mijn oogen-overzwermden hoeder:
+<l>Met loerend-valsche blikken sluipt hij nader,
+<l>Dien in den dood zelfs de aarde niet kan bergen.
+<l>Hij stijgt omhoog uit de&apos; afgrond.
+<l>Hij jaagt de armzalige, hij drijft mij
+<l>In dorst en honger voort langs &apos;t eindloos zand der zeekust...
+
+<milestone unit=tb rend=space>
+
+<l>Daar zet het deunen van het schelle was-gevoegde riet
+<l>Zijn slaapwekkende wijzen in...
+<l>Wee wee! tot waar wel voeren mij de gangen
+<pb id=pb32 n=32><l>Van &apos;t doelloos-verre zwerven?&mdash;
+<l>Wat schuld, wat zonde, o zoon van Kronos,
+<l>Hadt gij in mij ontdekt,
+<l>Dat gij mij, lacy! in dit lijden jokte,
+<l>Mij dus met brems-gedreven vreezen
+<l>Rampzalig en verbijsterd afslooft?...
+<l>Verteer met vuur, verdoe mij onder de aarde,
+<l>Werp mij als aas den muilen voor der zee&mdash;
+<l>Maar laat door mijn gebeden
+<l>U eindlijk, Heer, verteedren!
+<l>Ziek tot den dood heeft mij gekweld
+<l>Dit zwervebonte dolen,&mdash;
+<l>En nog kan &apos;k niet vernemen
+<l>Hoe &apos;k ooit ontkom aan mijnen leedgang...
+
+<milestone unit=tb rend=space>
+
+<l>Verstaat gij &apos;t roepen van de koe-gehoornde maagd?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Hoe zoude ik doof zijn voor de brems-vervolgde bruid,
+<l>Inachos&apos; dochter?&mdash;die het hart van Zeus verwarmt
+<l>Met liefde, en daarom door de haat van Hera nu
+<l>Noodschiks tot eindeloozen wedloop wordt geplaagd.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Hoe komt gij te roepen mijn vaders naam?
+<l>Wie zijt gij? Verhaal het der zwaar-beproefde.
+<l>Wie zijt ge, onzalige, die mij onzalige
+<l>Zoo zeer naar waarheid toespreekt?
+<l>Ook hebt gij het god-gedrevene lijden genoemd,
+<l>Dat stekend&mdash;wee mij!&mdash;met zijn rustelooze prikkels
+<l>Mijn jeugd verschrompelt.
+<l>Door Hera&apos;s wrokkende listen verweldigd,
+<pb id=pb33 n=33><l>Vlied ik in smaad en honger
+<l>Met storm-ontstuimge sprongen... Wee,
+<l>Wie anders is zoo god-verlaten,
+<l>Die zwoegen moet als ik?
+<l>Stel me, als gij kunt, éen duidlijk teeken.
+<l>Wat wacht mij nog te lijden?
+<l>Wat middel blijft? Wat kruid voor deze krankheid?
+<l>Duid het, indien gij &apos;t weet.
+<l>Wijs het, verluid het aan de zwervenskranke maagd!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ik zeg u eerlijk al wat gij te weten wenscht,
+<l>Niet raadselen-doorvlochten, maar met &apos;t simpel woord
+<l>Dat vriend te hooren recht heeft uit bevrienden mond.&mdash;
+<l>Gij ziet Prometheus die het vuur den stervers schonk.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Gij die den stervers als gemeen solaas verscheent,
+<l>Dulder Prometheus, om wat oorschuld lijdt gij dit?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Nauw hield ik van mijn rampen te bejammren op.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Dus zoudt gij mij niet willen toestaan deze gunst&mdash;?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Wat gunst verzoekt gij?... &apos;k Zeg u alles wat gij vraagt.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Beduid wie u gejokt heeft boven deze kloof.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Van Zeus deed het de raadslag, en Hephaistos&apos; hand.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>En wegens welk vergrijpen boet gij deze straf?
+</sp>
+
+<pb id=pb34 n=34><sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Zooveel als ik verklaard heb, en niet meer, volsta.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Toch, wijs mij buitendien nog van mijn zwerven aan
+<l>Het einde: wat de duur zal wezen van mijn nood.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Beter dat gij dees dingen niet dan wel verneemt.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Waartoe verheimlijkt wat ik eenmaal lijden móet?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Gering geschenk begeert gij. Het begroot mij niet.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Draal dan niet langer. Openbaar al wat gij weet.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Niets let mij&mdash;doch te schokken schroom ik uw gemoed.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Niet meer dan zelf mij lief is, wees om mij bezorgd.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Daar het uw wensch is, zal ik spreken. Luister dan.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Nog even&mdash;mij ook geef mijn deel en hartewensch.
+<l>Gun ons vooraf te hooren wat zij heeft doorstaan,
+<l>Der lotgevallen velen kommer, uit haar mond.
+<l>Der toekomst kampen mag zij leeren dan van u.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Uw taak, o Io, de vervulling van haar wensch
+<l>Aan dezen, te eerder daar ze uw vaders zustren zijn.
+<l>Want om zich jammrend uit te weenen in zijn leed
+<l>Daar waar men hoop heeft van zijn hoorderen als loon
+<l>Tranen te beuren, noem ik welbesteden tijd.
+</sp>
+
+<pb id=pb35 n=35><sp who=io>
+<speaker>IO:</speaker>
+
+<l>Ik weet niet hoe ik u vertrouwen weigren zoû.
+<l>Gij zult vernemen alles wat gij van mij wenscht,
+<l>In woorden duidlijk, al vernieuwt mijn smart &apos;t verhaal
+<l>Hoe deze god-geblazen stormwind, dit verderf
+<l>Van mijn onnoozel jeugdschoon mij is toegewaaid.&mdash;
+<l>Voortdurend naakten tot mijn jonkheids slaapvertrek
+<l>Alnachtlijk droomgezichten en vermaanden mij
+<l>Met  fluistersproken: o veel-gelukzaalge maagd,
+<l>Waarvoor bewaart ge uw kuischheid, die verwerven moogt
+<l>Den hoogsten bruîgom? Immers, door verlangens pijl
+<l>Is Zeus ontgloeid in smachten om tot liefdes werk
+<l>Zich met u saam te spannen.... Gij, o kind, verschop
+<l>Niet zijn omhelzing. Maar naar Lerna&apos;s diepe weî
+<l>Ga waar uw vaders geite- en runderstallen zijn,
+<l>En koel Zeus&apos; ooglicht van begeertes heete koorts.&mdash;
+<l>Door zulke droomen werd ik arme nacht aan nacht
+<l>Niet losgelaten, tot ik mijnen vader dorst
+<l>Vertellen dier schrikbeelden avond-trouw bezoek.
+<l>En deze zond naar Pytho en Dodona heen
+<l>Herhaalde boden om te leeren met wat daad
+<l>Of woord hij &apos;t welgevallen dienen zoû der goôn.
+<l>Zij brachten van de reize orakelspreuken meê,
+<l>Raadslig, onduidlijk, dubbelzinnig opgesteld.
+<l>Maar in het einde kwam de boodschap zonneklaar,
+<l>Bevel nadrukklijk, volverwoord, aan Inachos
+<l>Om mij te stooten weg uit huis en vaderland,
+<l>Offer-vrij dolend langs der aarde verste grens,
+<l>Als hij niet wilde dat des bliksems stralend vuur
+<l>Van Zeus zou dalen en zijn gansch geslacht verdoen.
+<pb id=pb36 n=36><l>Door zulke oraaklen overreed van Loxias,
+<l>Heeft hij mij uitgedreven, sloot mij buiten &apos;t huis,
+<l>Tegen ons beider opzet. Doch hem dreef de nood,
+<l>Zeus&apos; gewelddaadge breidel, zulk een ding te doen.
+<l>Mij waren daadlijk menschlijk uitzicht en verstand
+<l>Verstoord: gehorend als gij ziet, geprikkeld door
+<l>De scherpe speer der horzel, in verwoeden sprong
+<l>Joeg ik naar Lerna&apos;s kustland en den zoeten dronk
+<l>Van bron Kerchneia. Als mijn hoeder met mij meê
+<l>Volgde Argos de aardzoon leêg van deernis, en hij liet
+<l>Nimmer zijn tallooze oogen van mijn voetspoor los.
+<l>Hem heeft een onverklaarbaar noodlot onverhoeds
+<l>Beroofd van leven. Mij, gestoken door de brems,
+<l>Drijft goddelijke geesel voort van land tot land.&mdash;
+<l>Wat is geschied, vernaamt gij. Kunt gij zeggen wat
+<l>Mij rest aan lijden, duid het. Spreek geen onwaar woord
+<l>Uit meêlij dat vergoêlijkt. Want ik weet geen leed
+<l>Zoo gruwlijk als het aaien van bedachten troost.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Wee wee! laat af, laat af!
+<l>Nimmer nimmer kon ik droomen
+<l>Dat tot mijn ooren zouden reiken
+<l>Zoo vreemde sproken!
+<l>Noch dat zoo kwalijk te aanschouwen, en kwalijk te dragen
+<l>Beelden van leed en verderf en ontzetting
+<l>Met weêrsneedsche&apos; angel
+<l>Ziel zouden ijzen!
+<l>Eilaas, noodlot, noodlot!
+<l>Mijn oogen huiveren, die zagen
+<pb id=pb37 n=37><l>Io&apos;s leedgang
+<l>Aan zich voorbijgaan!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Gij steent te spoedig, zijt te vroeg van vreeze vol.
+<l>Bedwing u tot gij ook het oovre hebt geleerd.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Spreek: onderricht haar. Voor wie lijden, is &apos;t wel zoet
+<l>Zeker vooruit te weten &apos;t leed dat overschiet.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Uw vorig wenschen kreegt gij licht van mij gedaan:
+<l>Vooraf vernemen woudt gij van haar worstelgang
+<l>Verhaal omstandig, woorden uit haar eigen mond.
+<l>Nu hoort het oovre: wat al tegenspoeden nog
+<l>Van Hera moet verduren deze jonge maagd.
+<l>En gij, o Inachos&apos; zaad, leg in uw gemoed
+<l>Mijn woorden, dat gij de&apos; eindpaal leert van uwen weg.&mdash;
+<l>Eerst wend van hier u tegen de&apos; opgang van de zon
+<l>En over de ongeploegde bunders zoek uw pad.
+<l>Gij vindt de zwerfsche Skythen die in rieten huis
+<l>Zweef-wonen op hun welgewielde wagenen,
+<l>Met boog en pijl bewapend voor het verre doel.
+<l>Treed dien niet nader: trek aan hun gebied voorbij
+<l>En wijk geen voetbreed van &apos;t zee-ruischend rotsstrand af.
+<l>Ter linker huizen de Chalybiërs, meesters in
+<l>Het ijzersmeden. Ook voor dezen hoed u wel;
+<l>Want wilden zijn zij, vreemden ontoegankelijk.
+<l>Dan komt ge aan stroom Hybristes, waardig zijnen naam.
+<l>Wil hem niet overtrekken (want daar is geen wed)
+<l>Vóor gij ten Kaukasos naakt, aardes hoogsten berg,
+<pb id=pb38 n=38><l>Daar waar uit zijne slapen zelven de rivier
+<l>Haar kracht komt balgen. Overtrekken zult gij dan
+<l>Die star-nabuurge toppen. Daal vandaar het pad
+<l>Naar &apos;t Zuiden totdat ge aantreft &apos;t mannenhatend heir
+<l>Der Amazonen die eenmaal Themiskyra
+<l>Rond den Thermodoon gaan bevolken tot waar gaapt
+<l>Rotsruige kolk van Salmydessos, gastvrouw wreed
+<l>En tweede-moeder voor al schip en schepeling.
+<l>Die geven blij-reê u geleide op uwen weg.
+<l>De nauwe landstraat vindt gij naar de poorten van
+<l>&apos;t Kimmerisch eiland dat gij doortrekt om aan &apos;t end
+<l>&apos;t Maiotisch golfbed onverschrokken door te gaan.
+<l>Den stervers blijft aleeuwig van dien overtocht
+<l>Roemruchte konde, de engte voortaan Bosporos
+<l>Geheeten. Dan verlaat ge Europa&apos;s vlakte en komt
+<l>Naar &apos;t vasteland van Asia&mdash;
+
+<stage>(<hi>tot de</hi> REI:)</stage>             <l>Ziet gij nu soms in
+<l>Hoe Hemels overweldger een geweldnaar is
+<l>In ieder opzicht? Van dees stervling haakt hij god
+<l>Liefde te winnen&mdash;en zulk dolen werpt hij ze op!
+
+<stage>(<hi>tot</hi> IO:)</stage>
+
+<l>Een wreeden werver om uw huwlijk, jonge maagd,
+<l>Hebt gij getroffen. Want bedenk dat dit relaas
+<l>Dat gij gehoord hebt, nauwlijks in zijn aanhef is.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Eilaas, wee mij, wee!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Gij roept en jammert nu al? Wat wel zult gij doen
+<l>Als ge aanstonds aanhoort uwer rampen overschot?
+</sp>
+
+<pb id=pb39 n=39><sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Gaat gij haar dan nog meerder lijden kondigen?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Een stormenzwaren zeevloed van schrikzalig wee.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Wat winst is mij te leven? Waarom stort ik niet
+<l>Mij van dees steile rotsen onverwijld omlaag
+<l>Dat op den grond verpletterd ik van rampen al
+<l>Verlost zoû wezen? Beter sterven eens voor goed
+<l>Dan al zijn levensdagen niets dan leed te zien!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Hoe zoudt gij nooden dulden zooals ik doorsta,
+<l>Aan wien te sterven nimmermeer is voorbeschikt?
+<l>Dat toch zoû wezen een verlossing uit mijn leed!
+<l>Nu echter heb ik van mijn zwoegen grens noch eind
+<l>Te wachten, vóordat Zeus der heerschappij ontstort.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Is dit ooit mooglijk dat &apos;t bewind aan Zeus ontvalt?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>&apos;t Waar vreugd u, denk ik, zulk een ommekeer te zien?
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Hoe anders, daar mij Zeus met ongeluk vervolgt?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Verneem van mij dan, dat dit werklijk wezen zal.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Wie ooit ontrooft den schepter hem der heerschappij?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Hij zelf door eigen inzichtledig overleg.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Op wat voor wijze? Duid het, als het u niet schaadt.
+</sp>
+
+<pb id=pb40 n=40>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Een huwlijk zal hij aangaan, dat hem straks berouwt.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Met wie? Godin of stervling? Zeg het zoo gij &apos;t moogt.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Dit vraag niet. &apos;t Is niet oorbaar dat ik antwoord geef.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Wordt van den troon gestooten hij door eigen vrouw?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Zij baart een zoon hem, sterker dan de vader is.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Blijft geen ontkomen mooglijk voor hem aan dit lot?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Alleen als ik eerst uit mijn boeien ben bevrijd.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Wie, tegen Zeus&apos; wil, zal dat doen? Wie maakt u los?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Van uw nakomelingen eene moet het zijn.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Hoe zegt ge? Een mijner kindren redt u uit uw nood?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Na tien geslachten die de derde is in geslacht.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Nu klinkt uw boodschap nauwlijks meer een welkom waard.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Zoo spaar mij ook &apos;t verhalen van uw eigen leed.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Eerst spiegelt gij mij winst voor&mdash;dan onthoudt gij haar.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ik zal u schenken van de beide reednen de éen.
+</sp>
+
+<pb id=pb41 n=41>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>Verklaar mij, wat voor reednen. Leg de keus mij voor.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ziehier. Verkies gij. Zal ik uw toekomend wee
+<l>Nauwkeurig duiden of den man die mij verlost?
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Van deze gunsten wil aan Io de éene, mij
+<l>De andre bedeelen. Acht me uw woorden niet onwaard.
+<l>En haar verkondig haren verdren zwerversgang,
+<l>Mij wie u zal verlossen. Want dit derf ik noô.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Daar het uw uitgesproken wensch is, geef ik toe
+<l>U te verkondgen alles wat gij mij verzoekt.
+<l>U, Io, duid ik uwen veelbewogen gang
+<l>Het eerst: in taaflen van gedachtnis schrijf hem neêr.
+<l>Over de zee-pas, beider vastelanden grens,
+<l>Keer u naar de Oostertransen vlammeschijnend van
+<l>Het spoor der morgenzonnen, reis tot aan de zee
+<l>En steek haar bruisen over tot gij weêr belandt
+<l>Ter Gorgoneische vlakte aan berg Kisthene waar
+<l>Huizen de aloude maagden, Phorkys&apos; dochtren, drie
+<l>Zwanegestalten, die slechts éen gemeenzaam oog
+<l>En éenen tand bezitten. Haar beschijnt nooit zon
+<l>Met hare stralen noch de nachtelijke maan.
+<l>Nevenaan zijn haar zustren, de Gorgonen drie,
+<l>Gevleugeld, slangenharig, bij den mensch gehaat:
+<l>Geen stervling die haar aanziet en den adem houdt.
+<l>Laat mijne woorden u een voorbehoedsel zijn.
+<l>Nu hoor een ander onheil-dreigend tafereel.
+<l>Vermijden Zeus&apos; woedfelle honden moet gij dan,
+<pb id=pb42 n=42><l>De scherpgebekte grijpen, en &apos;t eenoogig heir
+<l>Der paard-berijdende Arimasken huizend aan
+<l>Den bovenloop van Ploetoons goud-doorstuwden stroom:
+<l>Die moogt gij niet genaken. Ver bij aardes grens
+<l>Komt ge aan den stam der zwarten in wier buurt de zon
+<l>Heeft hare bronnen. Ook ontspringt er de Aithiops.
+<l>Ga verder langs diens oevers tot gij hebt bereikt
+<l>Den vloedval waar langs wanden van &apos;t Biblisch gebergt
+<l>De Nijl zijn heilig levengevend water stort.
+<l>Die zal den weg u wijzen naar &apos;t driehoekig land
+<l>Neilotis, waar u en uw kindren is beschikt,
+<l>O Io, uwe stad te stichten ver van huis.&mdash;
+<l>Bleef eenig ding u duister, klonk iets stamel-vaag,
+<l>Verdubbel &apos;t vragen, vorder duidelijk bescheid.
+<l>Ik heb meer tijd beschikbaar dan mij lief kan zijn.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Blijft u te melden van haar onheilvollen tocht
+<l>Eén verder voorval, kwam u eenig ding te ontgaan,
+<l>Spreek. Is uw woord ten einde, schenk ons op ons beurt
+<l>De gunst die wij u vroegen, die u zeker heugt.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS (<hi>tot de</hi> REI):</speaker>
+
+<l>Vernomen heeft zij heel heur zwerftocht tot zijn eind.
+<l>Toch, opdat ze inzie &apos;t nut van wat zij heeft gehoord,
+<l>Zal &apos;k duiden wat zij doorstond, eer zij kwam tot hier:
+<l>Den besten waarborg mijner woorden geef ik haar.&mdash;
+</sp>
+
+<stage>(<hi>tot</hi> IO:)</stage>
+
+<sp who=pro>
+<l>Der sproke langen voorsleep laat ik achterweeg,
+<l>En keer mij tot het uiteind uwer dolingen.&mdash;
+<l>De velden der Molossen hadt gij reeds bereikt;
+<l>Uw weg ging opwaarts naar Dodona&apos;s steilen rug:
+<pb id=pb43 n=43><l>Daar is Zeus&apos; zetel en Thesprotisch heiligdom,
+<l>En &apos;t ongelooflijk wonder van der eiken stem.
+<l>Die heeft in stralend-klare klanken u begroet
+<l>Met de&apos; eernaam van toekomstge gemalin van Zeus...
+<l>De erinnring, zie ik, streelt nog laaiend door uw hart...
+<l>Waanzin-gestoken joegt gij toen langs &apos;t strand der zee
+<l>Naar Rhea&apos;s wijden waterboezem van wiens zoom
+<l>Uw storm van heen-en-weêrschen wedloop hier verwoei.
+<l>In later tijden draagt die inhoek van de zee,
+<l>Wees daarvan zeker, uwen naam, de Ionische,
+<l>Al stervelingen van uw tocht gedachtenis.
+<l>Dit zijn bewijzen voor u van mijn zienerschap
+<l>Dat schouwt wel verder dan de zon van heden schijnt.
+</sp>
+
+<stage>(<hi>tot de</hi> REI:)</stage>
+
+<sp who=pro>
+<l>Tot u en haar tezamen komt mijn verder woord,
+<l>En volgt van vroegre reednen weêr het oude spoor.&mdash;
+<l>Daar ligt een stad Kanobos aan Aigyptos&apos; rand
+<l>Vlak bij de monding en de slibben van den Nijl:
+<l>Daar schenkt weêrom u Zeus uw ongerept verstand,
+<l>Vrees-leengend streelt zijn hand u, en gij wordt bevrucht,
+<l>En baart een zoon hem, die naar zijn verwekkers daad
+<l>&ldquo;Streeler&rdquo; genaamd wordt, zwarten Epaphos, den heer
+<l>Van al &apos;t land dat bevloeid wordt door den breeden Nijl.
+<l>&apos;t Vijfde geslacht na dezen keert naar Argos weêr.
+<l>&apos;t Zijn vijftig zustren die gedwongen vluchten voor
+<l>&apos;t Verwante huwlijk dat haar met haar neven dreigt.
+<l>De bruîgoms volgen, door den hartstocht opgejaagd,
+<l>Op korten afstand, achter duiven haviken,
+<l>Een zwerm van jagers jagend het verboden wild
+<l>Van &apos;t huwlijk; want de godheid gunt den buit hun niet.
+<pb id=pb44 n=44><l>Pelasgia dekt hen, overweldigd in den nacht
+<l>Met moord waartoe der bruiden wake zich vermant;
+<l>Want vrouw aan vrouwe rooft mans leven in den slaap,
+<l>&apos;t Dubbelgewette lemmet vervend in hun bloed&mdash;:
+<l>Moog Kypris zoo bezoeken mijne vijanden!&mdash;
+<l>Eén enkle maagd verteedert harts verlangen om
+<l>Haar bedgenoot te sparen; vastberadenheid
+<l>Verweifelt; tot de keus gebracht, verkiest
+<l>Den naam van laf zij boven dien van bloedbevlekt.
+<l>Zij zal in Argos baren koninklijk geslacht...
+<l>Dit grondig uit te duiden eischt een lang verhaal;
+<l>Doch uit haar bloed geboren wordt de nazoon koen,
+<l>Roemruchte schutter, die uit mijne nooden mij
+<l>Bevrijdt.&mdash;Zulk een voorspelling heeft mijn moeder mij,
+<l>Oeroude Themis de Titane, uiteengezet.
+<l>Doch &apos;t hoe-en-wat te zeggen eischt een lang verhaal,
+<l>En &apos;k zie niet wat gij bij &apos;t vernemen winnen zoudt.
+</sp>
+
+<sp who=io>
+<speaker>IO:</speaker>
+
+<l>O jammer en wee!
+<l>Daar vangt opnieuw te doorschroeien mij aan
+<l>Waanzins koudvuur, ziel-schokkende vlaag:
+<l>&apos;t Ongestaalde geweer van de horzel mij spoort;
+<l>Aan mijn borstwand bonst onder vreezen mijn hart;
+<l>Als raderen kolkt mijner oogen gezicht;
+<l>Ik verdool uit mijn spoor onder &apos;t grimmig geblaas
+<l>Der verbijstring, mijn tong ontstijft aan mijn macht;
+<l>&apos;t Stuurlooze besef gaat blindlings te keer
+<l>Tegen golven van bittere ellende.
+</sp>
+
+<stage>(<hi>Af naar links.</hi>)</stage>
+
+
+
+
+<pb id=pb45 n=45>
+<div1 id=t8>
+<head>ACHTSTE TOONEEL</head>
+
+
+<stage>PROMETHEUS, REI VAN OKEANIEDEN.</stage>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Wijs en dubbel wijs was hij
+<l>Die het eerst deze waarheid lichtte in zijn hart en in menschenspraak verwoordde:
+<l>&ldquo;&apos;t Beste deel kiest hij die zich onder gelijken verzwagert:
+<l>Nimmer streev&apos; naar een huwlijk met wie zich in rijkdom verweeldden,
+<l>Of wie op adel en afkomst groot gaan,
+<l>Die zijn brood in armoê wint.&rdquo;
+
+<milestone unit=tb rend=space>
+
+<l>Moogt gij nimmer nimmer mij,
+<l>O ontzagbre Moiren, als bruid het bed van Zeus zien deelen;
+<l>Moge ik nooit den gemaal eener hemelsche naken!
+<l>Want mij huivert te zien hoe de bruîgom-schuwe
+<l>Jeugd van Io door Hera verwelkt en verschrompelt
+<l>In kwaadzwerfsch dolen
+<l>Door eindloos wee!
+
+<milestone unit=tb rend=space>
+
+<l>Bij mij in eere &apos;t huwlijk dat gelijken vreezeloos vereent...
+<l>Nimmer moge de liefde van machtiger goden
+<pb id=pb46 n=46><l>Naar mij richten
+<l>Den onontkoombren oogstraal:
+<l>Oorlog zonder tegen-oorlog,
+<l>Middlen zonder tegen-middel...
+<l>&apos;k Weet niet wat uit mij zoû worden.
+<l>Want ik zie niet hoe ik ooit
+<l>Zeus&apos; overleg ontgaan zoû!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Toch deze Zeus wordt, of zijn hart in trots nu zwelgt,
+<l>Eens nog vernederd: zulk een huwlijk neemt hij voor
+<l>Te sluiten, dat hem eerlang uit zijn heerschappij
+<l>En troonstoel spoorloos wegwerpt. Dan zal onverkort
+<l>Aan hem voltrokken worden vader Kronos&apos; vloek
+<l>En wraakbeê toen hij neêrviel uit de&apos; alouden troon.&mdash;
+<l>Uit zulk een net van onheil zoû geen enkel god
+<l>Hem veilgen uitweg kunnen wijzen: ik alleen,
+<l>Ik ken gevaar en middel. Laat hem nu dan vrij
+<l>Zeetlen in stout vertrouwen op zijn bovenaardsch
+<l>Gestommel, drillend in zijn hand de vuren lans.
+<l>Niets baten eens hem deze waapnen, dat hij niet
+<l>Eerloos zoû vallen met een niet te dragen val.
+<l>Zoo&apos;n worstlaar is hij bezig uit te rusten zelf
+<l>Tegen zich-zelven, onbestrijdbaar machtgewrocht,
+<l>Die feller vlam zal vinden dan de bliksem is,
+<l>En luid gedaver dat den donder overschalt.
+<l>Poseidoons speer, den drietand die de zee beheerscht
+<l>En schokt der aarde vesten, strooit in stukken hij.
+<l>Op zulk verderf gestooten, leert Zeus mettertijd
+<l>Hoe zeer verscheiden heerschen is van slavernij.
+</sp>
+
+<pb id=pb47 n=47><sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Den wensch uws harten roept ge op uwen vijand in!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Neen: wat vervuld wordt, spreek ik&mdash;schoon ik &apos;t óok begeer.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Moet ik verwachten dat een aêr Zeus overheert?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ja, en nog zwaarder lijden kromt zijn nek dan &apos;t mijn.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Hoe kunt gij vreesloos zulke reednen slingeren?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Wat zoude ik vreezen, wien geen sterven is beschikt?
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Nog smartelijker kwelling brengt hij over u!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Dat laat hem brengen: &apos;k ben op alle ding bedacht.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Die nederbuigen voor Zeus&apos; Wrake, noem ik wijs.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Den wisselenden heerscher eer, aanbid en vlei&mdash;
+<l>Mij kan uw Zeus niet deren, minder nog dan niets.
+<l>Laat hem begaan en heerschen dezen korten tijd
+<l>Naar zijn behagen&mdash;lang stiert hij de goden niet!&mdash; &mdash;
+<l>Doch stil&mdash;daar zie ik zijnen loopslaaf naderen,
+<l>Den dienstknecht van den jongen overweldiger:
+<l>Die komt met zeker nooit gehoorde boodschap aan.
+</sp>
+
+
+
+
+<pb id=pb48 n=48>
+<div1 id=t9>
+<head>NEGENDE TOONEEL</head>
+
+
+<stage>PROMETHEUS, REI VAN OKEANIEDEN, HERMES.</stage>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Gij daar, de wijzaard, overvol van bittre gal,
+<l>Die aan de goden u vergreept, de&apos; eendageling
+<l>Hun eerrecht wegschonkt,&mdash;u bedoel &apos;k, den dief van &apos;t vuur!
+<l>Mijn vader port u uit te spreken wat gij pocht,
+<l>Het huwelijk waardoor hij aan &apos;t gezag ontvalt.
+<l>En zóo wel, dat niets raadseligs gij overlaat,
+<l>Maar punt aan punt hem uitduidt. Dring mij ook niet op
+<l>Een dubble reis, Prometheus; want gij ziet dat Zeus
+<l>Door zulke listen toch zich niet verweeken laat.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Aanmaatgend plechtig en vol hollen eigenwaan
+<l>Uw taal, als bij een dienaar van de goden past.
+<l>Jong zijt gij goden, jong uw almacht, en gij waant
+<l>Te wonen in leedvrije burchten... Nam &apos;k niet waar
+<l>Reeds twee tyrannen uit die hoogten neêrgestort?
+<l>Zoo zal ik, snelst en schandlijkst, ook den derden zien,
+<l>Die nu bewind voert. Dacht gij soms dat ik
+<l>In vreeze weg zoû duiken voor de nieuwe goôn?
+<l>Daar komt nog veel, nog alles toe te kort.&mdash;Doch gij
+<pb id=pb49 n=49><l>Rep weêr in ijle &apos;t pad dat gij gekomen zijt;
+<l>Want niets verneemt gij van de dingen die gij vorscht.
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Zulke eigenzinnigheden loodsten vroeger al
+<l>U in de haven van dit zelf verkozen leed!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Toch zoude ik met uw knechtschap, wees daar zeker van,
+<l>Niet garen ruilen dezen mijnen boozen staat.
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>&apos;t Is denklijk beter knecht te zijn bij dezen rots
+<l>Dan vader Zeus&apos; vertrouwde bode zooals ik.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Dat is een antwoord als men van een slaaf verwacht,
+<l>Die tegen zijne honers zich met hoon verweert.
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Gij schijnt zelfs weeldrig in uw tegenwoordig doen!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ik weeldrig? Mocht ik eenmaal nog zóo weeldrig zien
+<l>Al mijn vijanden! U ook reken &apos;k onder die.
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Stelt gij zelfs mij aanspraaklijk voor uw ongeluk?
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>In-éen-woord haat ik de gezamenlijke goôn
+<l>Die mijne weldaad loonen met onoorbaar kwaad.
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>&apos;k Hoor wel, uw ziekte is waanzin van de zwaarste soort.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ziek ben ik, als zijn vijand haten ziek-zijn is.
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Gij zoudt niet zijn te dragen als gij voorspoed hadt!
+</sp>
+
+<pb id=pb50 n=50>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Wee mij!
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Wee mij!&mdash;dat is een uiting waar Zeus niet van weet.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Niets of wij leeren &apos;t van den ouderenden tijd.
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Toch, gij weet nog altijd niet van verstandig-zijn!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>&apos;k Zoû anders &apos;t woord niet richten tot een slaaf als u.
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Gij zult niets zeggen, lijkt het, wat mijn vader wenscht.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Ik ben hem immers dank verschuldigd,&mdash;ik betaal!
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Gij wilt met spot mij tergen, zie ik, als een kind.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Zijt gij geen kind dan, en nog dwazer dan een kind,
+<l>Als gij van mijne zijde &apos;t minst bescheid verwacht?
+<l>Daar is geen krenking te bedenken, waarmeê Zeus
+<l>Mij af zoû martlen, dat ik dit hem openbaar
+<l>Aleer dees smadelijke banden zijn gevierd.
+<l>Vrij laat hem slingren zijn roetrosse bliksemvlam,
+<l>Met onderaardschen donder, witgeveêrde sneeuw
+<l>Keere en beroer&apos; hij onderstboven het heelal&mdash;:
+<l>Geen middel vindt hij mij te krommen dat ik zeg
+<l>Wat oorzaak hem zal storten uit zijn heerschappij!
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Bedenk of dees <corr sic=harnekkigheid>hardnekkigheid</corr> uw voordeel blijkt!
+</sp>
+
+<pb id=pb51 n=51><sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Reeds lang beraden en bedacht is alleding.
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Waag eindlijk eens, onnoozle, waag het eindlijk eens
+<l>Uw lijden aan te blikken met gezond verstand!
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Gij wilt de zee bepraten: ijdele overlast!
+<l>Verbeeld geen oogenblik u, dat de vreeze voor
+<l>Zeus&apos; oordeel overmannen zoude mijnen geest,
+<l>Dat ooit in vrouw-gebarend handgehef ik smeek
+<l>Den meest gehaten vijand dat hij mij bevrijdt
+<l>Uit deze boeien. Wereld-ver ben &apos;k daarvandaan!
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Ik spreek vergeefs wel, spreek ik verder nog zooveel.
+<l>Gij laat uw hart niet vochten en niet kneden door
+<l>Mijn pleiten. Als een veulen voor het eerst gejokt
+<l>Bijt gij den breidel, volgt geen leidsel, slaat op hol.
+<l>Een zwak beginsel blijkt in uw onstuimigheid;
+<l>Want niets is zoo zwak als bij wien verstand niet ment,
+<l>Het stuurloos-losgelaten eigenzinnig hart.
+<l>Zie, als gij door mijn woorden u niet winnen laat,
+<l>Wat noodweêr en wat hoos van rampen niet te ontgaan
+<l>Tegen u opsteekt. Aanstonds zal mijn vaders hand
+<l>Met donder en met vlam van bliksem klieven gaan
+<l>Dees rouwe klove. Hij begraaft u in haar diep.
+<l>Daar ligt de lijfromp in der rotsen arm gebed.
+<l>En zoo voleindt gij eindeloozen duur van tijd&mdash;:
+<l>Dan stijgt gij weêr aan &apos;t daglicht. Zeus&apos; gevlerkte hond,
+<l>Moordgierige aadlaar, vaart als stormvlaag op u neêr,
+<pb id=pb52 n=52><l>En rijt uw lichaam tot éen groote bloedelomp,
+<l>En keert, een ongenoode dagelange gast,
+<l>En maaltijdt van zwart-aangevreten leverrest.
+<l>Van zulke ellende wacht geen einde vóordat éen
+<l>Der goden opsta, die uw lijden overneemt,
+<l>En voor u af wil dalen in de lichtloosheid
+<l>Van Hades en den donkren kuil van Tartaros.
+<l>Hiernaar beraad u; want dit dreigement is niet
+<l>IJdel-verzonnen, maar onfeilbaar aangezegd.
+<l>Want leugen-spreken, daarvan weet Zeus&apos; mond niet af,
+<l>Maar alle woord vervult hij. Gij van uwen kant
+<l>Bedenk u alomzichtig: eigenzinnig doen
+<l>Gaat nooit, geloof mij, boven welberadenheid.
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Ons lijkt dat Hermes woorden niet-onreedlijk spreekt.
+<l>Hij dringt u af te wijken van uw eigendunk
+<l>En &apos;t spoor te volgen van verstandig overleg.
+<l>Geef toe; want voor den wijze is falen schandelijk.
+</sp>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Reeds wist ik de boodschap, lang vooruit,
+<l>Van zijn ijdel geroep. Niets eerloos is &apos;t
+<l>Dat een vijand van vijanden kwaad ondervindt.
+<l>Laat vrij de tweesnijdende vurige slang
+<l>Op mij neder zich slingeren; de aither verzink&apos;
+<l>Onder donder en ijzend geloei van den wind
+<l>Woest-kolkend ineen; laat rukken &apos;t geblaas
+<l>Uit haar voegen met wortlen en al dees aard;
+<l>Laat &apos;t schuim van de zee met verdoovend gebruis
+<l>Overstroomen de banen van &apos;t hemelsch gestarnt;
+<pb id=pb53 n=53><l>Laat lichten omhoog hij mijn hulploozen romp
+<l>En slingren omlaag hem in Tartaros&apos; nacht
+<l>Met duizlende draaien van ijzeren dwang&mdash;
+<l>Hij heeft geen kans mij te dooden!
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Die zulke overwegingen denkt en verwoordt,
+<l>Is, zeker te hooren, geraakt van verstand.
+<l>Wat laat hem zijn grootspraak over om niet
+<l>Krankzinnig te zijn? Wat waan die ontbreekt?&mdash;
+<l>Doch gij die in &apos;t leed van zijn zwoegende pijn
+<l>Deelneming betoont, wijkt ijlings van hier,
+<l>Uit de buurt dezer plaats naar een veiliger streek,
+<l>Dat aanstond niet uwe geesten verdwaaz&apos;
+<l>Het ontembaar geloei van den donder!
+</sp>
+
+<sp who=rei>
+<speaker>REI:</speaker>
+
+<l>Iets anders verluid en vermaan waartoe
+<l>Gij me ook overreedt; want nimmer verdraagt
+<l>Mijn gemoed het ontijdige woord dat gij spreekt.
+<l>Waarom mij bepraat om het slechte te doen?
+<l>&apos;k Ben bereid wat moet met den vriend te doorstaan!
+<l>Van een kind af heb ik te haten geleerd
+<l>Den verrader: ik ken
+<l>Geen kwaal die ik feller verafschuw!
+</sp>
+
+<sp who=her>
+<speaker>HERMES:</speaker>
+
+<l>Onthoudt gij dat ik u gewaarschuwd heb!
+<l>Geeft straks in uw val, door ellende geprooid,
+<l>Geen schuld aan het lot, rept nimmer een woord
+<l>Dat u Zeus in een afgrond onvoorzien
+<l>Deed struiklen van leed. Hij draagt geen schuld.
+<pb id=pb54 n=54><l>Gij zelven verkoost het met wetenden wil.
+<l>Niet plotsling gevat, niet heimlijk belaagd,
+<l>Overstrikt uwe reddlooze dwaasheid zich-zelf
+<l>Met het mateloos net der ellende!
+</sp>
+
+<stage>(<hi>De</hi> REI <hi>trekt zich langzaam en met blijkbaren tegenzin terug, terwijl ook</hi> HERMES <hi>zich verwijdert</hi>.)</stage>
+
+
+
+
+<pb id=pb55 n=55>
+<div1 id=t10>
+<head>TIENDE TOONEEL</head>
+
+
+<stage>PROMETHEUS ALLEEN.</stage>
+
+<sp who=pro>
+<speaker>PROMETHEUS:</speaker>
+
+<l>Zoo waar: met de daad, niet langer in woord,
+<l>Deinwaggelt de grond!
+<l>Het gebreideld rumoer zet loeiluid in
+<l>Van den donder: in zengende kronkelen laait
+<l>Van den bliksem het vuur; op den wervlenden storm
+<l>Rolwentelt het stof; al winden te hoop
+<l>In een alzijdsch oproer hijgen ten dans
+<l>Van vijandig geblaas, wederkeerig gedreig;
+<l>In elkander teloor stort aither en zee&mdash;
+<l>Klaarblijklijk van Zeus en gericht tegen mij
+<l>Zulke aanval, zulk een verwekken van vrees...
+<l>O ontzag mijner moeder, o aither die straalt
+<l>In uw wentlen het allen gemeenzame licht,
+<l>Gij aanschouwt wat gruwel ik lijde!
+</sp>
+
+<stage>(PROMETHEUS <hi>zinkt, samen met den rotswand, weg in de diepte</hi>.)</stage>
+
+
+
+
+<pb id=pb57 n=57>
+<div1 id=aanteekeningen>
+<head>AANTEEKENINGEN</head>
+
+
+<div2 type=Section id=n1>
+<head>EERSTE TOONEEL.</head>
+
+<p>De groep komt van links op en wordt gevormd door <hi>Hephaistos</hi>, den godsmid, die de werktuigen zijner kunst draagt, <hi>Kratos</hi> van wien men moet aannemen dat hij met de benoodigde boeien belast is, en de stomme figuur <hi>Bia</hi> die <hi>Prometheus</hi> aansleept. Deze laatste wordt <hi>in effigie</hi> aan den rots geklonken.
+
+<p>In het geheele stuk treden, naast de rei, slechts twee sprekende tooneelspelers op, de protagonist en de deuteragonist. De protagonist, die straks achter de vastgenagelde figuur van <hi>Prometheus</hi> diens rol spreken zal, vervult in dit tooneel de rol van <hi>Hephaistos</hi>. De deuteragonist speelt achtereenvolgens <hi>Kratos</hi>, <hi>Okeanos</hi>, <hi>Io</hi>, <hi>Hermes</hi>.
+
+<p><hi>Kratos</hi> (Kracht) en <hi>Bia</hi> (Geweld), die hier dienaarsrollen vervullen, zijn kinderen van den gigant <hi>Pallas</hi> en van <hi>Styx</hi>, en hebben met hunne ouders in den Titanenstrijd de zijde van <hi>Zeus</hi> gekozen.
+
+
+<div2 id=n2>
+<head>TWEEDE TOONEEL.</head>
+
+<p>Doordat <hi>Kratos</hi>, voorgesteld door den deuteragonist, bij den geboeide achterblijft, wint de protagonist den tijd zich achter de Prometheus-figuur op te stellen.
+
+
+<div2 id=n3>
+<head>DERDE TOONEEL.</head>
+
+<p>Evenmin als in mijn vertaling van Aischylos&apos; &ldquo;Agamemnoon&rdquo; heb ik hier getracht de maten der lyrische partijen voet voor voet te volgen. Alleen van de strofen in regelmatige anapaisten (&#x23D1; &#x23D1; &ndash;&#x0301; afgewisseld met &ndash; &ndash;&#x0301;), een maat die steeds het op- en aftreden vooral van de rei begeleidt, is de oorspronkelijke bouw overal behouden.
+
+
+<div2 id=n4>
+<head>VIERDE TOONEEL.</head>
+
+<p>De dochters van <hi>Okeanos</hi> zijn <hi>Prometheus</hi>&apos; schoonzusters, <hi>Okeanos</hi> is zijn schoonvader. Het kan den modernen lezer een oogenblik vreemd toeschijnen dat zij zich als volslagen onwetenden laten inlichten omtrent haar schoonbroeders lotgevallen. Dezelfde opmerking kan men maken over het feit dat zij van de toestanden onder de menschen en den invloed van <hi>Prometheus</hi> daarop niet schijnen af te weten, terwijl in den reizang die het zesde tooneel opent, een uitgebreide kennis van de woonplaatsen en de karakters dierzelfde stervelingen aan den dag komt.
+
+
+<div2 id=n6>
+<head>ZESDE TOONEEL.</head>
+
+<p>pg. 29:
+
+<lg>
+    <l>Maar uw aanblik doet mij huivren,
+    <l>Hoe door kwalen gij vermaald wordt,
+    <l>Niet te tellen, <g>zelf-gekozen</g>....
+    <l>Immers zonder Zeus te duchten enz.
+</lg>
+
+<pb id=pb58 n=58><p>Hier wordt door mij in het Grieksch gelezen:
+
+<lg>
+    <l><GR>fr'issw d'e se derkom'ena</GR>
+    <l><GR>mur'ioic m'oqjoic diaknai'omenon <g>ka>ujair'etoic</g></GR>
+    <l><GR>Z=hna g`ar o>u trom'ewn ktl.</GR>
+</lg>
+
+
+<div2 id=n7>
+<head>ZEVENDE TOONEEL.</head>
+
+<p><hi>Io</hi>, die volgens de overlevering door Hera uit naijver in een jonge koe werd veranderd, draagt als aanduiding daarvan een masker voorzien van hoornen.
+
+<p>pg. 40: <g>Met wie? Godin of stervling? Zeg het zoo gij &apos;t moogt.</g>
+
+<p><hi>Zeus</hi> was voornemens te huwen met <hi>Thetis</hi> die bestemd was een zoon te baren sterker dan zijn vader. Zij werd daarom later door de goden aan een sterveling<corr>,</corr> <hi>Peleus</hi>, uitgehuwelijkt en baarde dezen den bekenden <hi>Achilleus</hi>, den grootsten Griekschen held voor Troia.
+
+<p>pg. 40: <g>Na tien geslachten die de derde is in geslacht.</g>
+
+
+<table id=genIo rend="border-collapse(collapse)">
+<column rend="align(right)">
+<column><column><column><column><column><column><column><column><column>
+
+<row><cell rend="width(1.5em)">1. <cell cols=9><hi>Io</hi> (dochter van <hi>Inachos</hi>), bevrucht door Zeus.
+<row><cell cols=2 rend="width(2.5em)">   <cell cols=8 rend="border-left(1px solid black)">&nbsp;
+<row><cell>2. <cell cols=9>Epaphos
+<row><cell cols=2>   <cell cols=8 rend="border-left(1px solid black)">&nbsp;
+<row><cell>3. <cell cols=9>Libya, bevrucht door Poseidoon.
+<row><cell cols=2>   <cell cols=8 rend="border-left(1px solid black)">&nbsp;
+<row><cell>4. <cell cols=9>Belos
+<row><cell cols=2>   <cell cols=1 rend="border-left(1px solid black) border-bottom(1px solid black) width(5em)"> <cell cols=7>&nbsp;
+<row><cell cols=2>   <cell cols=1 rend="border-left(1px solid black)"> <cell cols=7 rend="border-left(1px solid black)">&nbsp;
+<row><cell>5. <cell cols=7>Danaos en Aigyptos  <cell rows=3>} <cell rows=3 rend="vertical-align(middle)">Zie aangaande Danaos, Aigyptos, Hypermestra, Lynkeus de volgende aanteekening.
+<row><cell cols=2>   <cell cols=1 rend="border-left(1px solid black)"> <cell cols=5 rend="border-left(1px solid black) border-bottom(1px solid black) width(6em)">&nbsp;
+<row><cell cols=2>   <cell cols=6 rend="border-left(1px solid black) border-right(1px solid black)">&nbsp;
+<row><cell>6. <cell cols=9>Hypermestra gehuwd met Lynkeus
+<row><cell cols=3>   <cell cols=2 rend="border-left(1px solid black) border-bottom(1px solid black)"> <cell cols=5>&nbsp;
+<row><cell cols=6 rend="width(3.5em)">             <cell cols=4 rend="border-left(1px solid black)">&nbsp;
+<row><cell cols=4 rend="width(4em)">             <cell rend="align(right)"> 7. <cell cols=5>Abas
+<row><cell cols=6>             <cell cols=4 rend="border-left(1px solid black)">&nbsp;
+<row><cell cols=4>             <cell rend="align(right)"> 8. <cell cols=5>Akrisios
+<row><cell cols=6>             <cell cols=4 rend="border-left(1px solid black)">&nbsp;
+<row><cell cols=4>             <cell rend="align(right)"> 9. <cell cols=5>Danaë, bevrucht door Zeus.
+<row><cell cols=6>             <cell cols=4 rend="border-left(1px solid black)">&nbsp;
+<row><cell cols=4>             <cell rend="align(right)">10. <cell cols=5>Perseus
+<row><cell cols=6>             <cell cols=4 rend="border-left(1px solid black)">&nbsp;
+<row><cell>11<corr>.</corr> <cell cols=3>Alkaios   <cell cols=6>Elektryoon
+<row><cell cols=2>    <cell cols=3 rend="border-left(1px solid black)">&nbsp;     <cell cols=2 rend="border-left(1px solid black) border-bottom(1px solid black)">                   <cell cols=3>
+<row><cell cols=2>    <cell cols=3 rend="border-left(1px solid black)">&nbsp;     <cell cols=2>                  <cell cols=3 rend="border-left(1px solid black)">
+<row><cell>12. <cell cols=9>Amphitryoon gehuwd met Alkmene, bevrucht door Zeus.
+<row><cell cols=8>                       <cell rend="border-left(1px solid black)">&nbsp; <cell>
+<row><cell cols=6>                       <cell rend="align(right)">13. <cell cols=3>Herakles.
+</table>
+
+
+<p>Pg. 43: <g>&apos;t Vijfde geslacht na dezen keert naar Argos weêr</g>, enz.
+
+<p>Bedoeld is de vlucht van <hi>Danaos</hi> met zijn vijftig dochters uit Aigypte naar <pb id=pb59 n=59>Argos. De vijftig zonen van <hi>Danaos&apos;</hi> broeder <hi>Aigyptos</hi> achterhalen daar hun beloofde bruiden, en <hi>Danaos</hi> staat, door den nood gedwongen, toe in de bruiloft, maar spreekt met zijn dochters af, dat dezen haar mans in den eersten huwlijksnacht zullen dooden. Alleen <hi>Hypermestra</hi> spaart haar jongen gemaal <hi>Lynkeus</hi>. Deze mythos was vroeger door Aischylos behandeld in zijn nog aanwezig drama &ldquo;de Smeekelingen&rdquo; (<GR><Ik'etidec</GR>).
+
+<p><hi>Pelasgia</hi> is hier een andere naam voor Argos.
+
+
+<divGen id=toc type=toc>
+
+<divGen type=Colophon>
+
+
+</back>
+</text>
+</TEI.2>
+
+<!--
+
+CHECKLIST (X = done; / = not applicable)
+
+Initial cleanup
+
+[X] Check all pb-tags, and join lines
+[X] Move all footnotes in-line
+[X] Tag headers
+[X] Fix all [** Proofer comments]
+[X] Start all paragraphs with the p-tag
+[ ] Change b, sc, g tags to hi tags with correct attributes.
+[X] Change tb tags to milestone tags.
+[ ] Fix multiple spaces in a row
+[ ] Verify all paragraphs start with p-tag, also those starting with a tag.
+
+TEI header
+
+[X] Add TEI header.
+[X] Fill in details in TEI header
+[X] Verify Author dates and add to TEI header.
+[ ] Document on-line scan sources.
+[ ] Fill in description in noteStmt.
+[ ] Fill in keywords / Subjects
+[ ] Add auto-generated colophon divGen tag.
+[ ] Fill in reference to LOC record (https://catalog.loc.gov/).
+[ ] Fill in reference to OpenLibrary record (https://openlibrary.org).
+[ ] Fill in reference to WorldCat record (source and work) (https://www.worldcat.org).
+[X] Generate unique epub-id. (https://www.guidgenerator.com/)
+
+Verse
+
+[X] Tag all verse.
+[X] Apply proper indentation: rend="indent(2)"
+
+Lists
+
+[ ] Tag all lists.
+
+Tables
+
+[ ] Format tables
+[ ] Apply ditto-tags.
+
+Table of Contents
+
+[ ] Format table(s) of contents
+[ ] Link entries in table of contents
+[ ] Verify each link
+[ ] Compare with generated table of contents
+
+Images
+
+[ ] Include all illustrations
+[ ] Verify positioning of images makes sense.
+
+Spelling
+
+[X] Verify generated wordlist
+[X] Tag language usage
+
+Tools
+
+[ ] Verify Gutcheck
+[ ] Verify jeebees
+
+Miscellany
+
+[X] Check for [Greek: ...] notation
+[X] Curlify quotes
+[X] Check for wrong quotes
+[X] Disambiguate single quotes, apostrophes, and primes.
+[X] Unwrap lines
+[X] Check for lines not unwrapped
+[ ] Verify sequence of page-numbers
+[ ] Handle fractions, such as 1/2.
+        ([0-9])\&ndash;([0-9])/([0-9])      \1\&frac\2\3;
+        ([0-9])/([0-9])                     \&frac\1\2;
+        ([0-9])\&ndash;([0-9]+)/([0-9]+)    \1\&frac\2-\3;
+        ([0-9]+)/([0-9]+)                   \&frac\1-\2;
+[ ] Converted all fragments in uppercase to mixed case.
+
+Text Version
+
+[ ] Remove FIGURE notations
+[ ] Verify empty lines between chapter headings
+[ ] Verify empty lines around poetry and lists
+[ ] Center poetry
+[ ] Format title page
+[ ] Remove Ads
+[ ] Format Tables
+[ ] Verify Greek and other transliterations
+
+Additional Checks and Edits (Add as needed for a specific book)
+
+[ ] ....
+
+Post-Posting
+
+[ ] Update status to 1.0 (i.e. Posted).
+[ ] Include PG number and posting date in metadata
+
+-->
